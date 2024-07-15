@@ -29,3 +29,6 @@ example:
    1.roscore  
    2.source ./devel/setup.bash
    3.rosrun XXXX_PKG 定义的节点别名(Python 语言 和 C++语言 同样)
+
+
+//提示配置文件
