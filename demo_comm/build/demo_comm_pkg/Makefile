@@ -183,6 +183,36 @@ demo_comm_pkg_node/fast:
 .PHONY : demo_comm_pkg_node/fast
 
 # Convenience name for target.
+demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/rule:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/rule
+.PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/rule
+
+# Convenience name for target.
+demo_comm_pkg_sub_node: demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/rule
+
+.PHONY : demo_comm_pkg_sub_node
+
+# fast build rule for target.
+demo_comm_pkg_sub_node/fast:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/build
+.PHONY : demo_comm_pkg_sub_node/fast
+
+# Convenience name for target.
+demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/rule:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/rule
+.PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/rule
+
+# Convenience name for target.
+demo_comm_pkg_pub_node: demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/rule
+
+.PHONY : demo_comm_pkg_pub_node
+
+# fast build rule for target.
+demo_comm_pkg_pub_node/fast:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build
+.PHONY : demo_comm_pkg_pub_node/fast
+
+# Convenience name for target.
 demo_comm_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
 	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : demo_comm_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule
@@ -434,6 +464,60 @@ src/demo_comm.cpp.s:
 	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/src/demo_comm.cpp.s
 .PHONY : src/demo_comm.cpp.s
 
+src/demo_pub.o: src/demo_pub.cpp.o
+
+.PHONY : src/demo_pub.o
+
+# target to build an object file
+src/demo_pub.cpp.o:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/src/demo_pub.cpp.o
+.PHONY : src/demo_pub.cpp.o
+
+src/demo_pub.i: src/demo_pub.cpp.i
+
+.PHONY : src/demo_pub.i
+
+# target to preprocess a source file
+src/demo_pub.cpp.i:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/src/demo_pub.cpp.i
+.PHONY : src/demo_pub.cpp.i
+
+src/demo_pub.s: src/demo_pub.cpp.s
+
+.PHONY : src/demo_pub.s
+
+# target to generate assembly for a file
+src/demo_pub.cpp.s:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/src/demo_pub.cpp.s
+.PHONY : src/demo_pub.cpp.s
+
+src/demo_sub.o: src/demo_sub.cpp.o
+
+.PHONY : src/demo_sub.o
+
+# target to build an object file
+src/demo_sub.cpp.o:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/src/demo_sub.cpp.o
+.PHONY : src/demo_sub.cpp.o
+
+src/demo_sub.i: src/demo_sub.cpp.i
+
+.PHONY : src/demo_sub.i
+
+# target to preprocess a source file
+src/demo_sub.cpp.i:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/src/demo_sub.cpp.i
+.PHONY : src/demo_sub.cpp.i
+
+src/demo_sub.s: src/demo_sub.cpp.s
+
+.PHONY : src/demo_sub.s
+
+# target to generate assembly for a file
+src/demo_sub.cpp.s:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/src/demo_sub.cpp.s
+.PHONY : src/demo_sub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -445,6 +529,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... demo_comm_pkg_node"
+	@echo "... demo_comm_pkg_sub_node"
+	@echo "... demo_comm_pkg_pub_node"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_cpp"
@@ -466,6 +552,12 @@ help:
 	@echo "... src/demo_comm.o"
 	@echo "... src/demo_comm.i"
 	@echo "... src/demo_comm.s"
+	@echo "... src/demo_pub.o"
+	@echo "... src/demo_pub.i"
+	@echo "... src/demo_pub.s"
+	@echo "... src/demo_sub.o"
+	@echo "... src/demo_sub.i"
+	@echo "... src/demo_sub.s"
 .PHONY : help
 
 

@@ -120,6 +120,16 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
+#订阅者和发布者注册配置
+# example
+#发布者
+add_executable(${PROJECT_NAME}_pub_node src/demo_pub.cpp)
+target_link_libraries(${PROJECT_NAME}_pub_node ${catkin_LIBRARIES})
+#订阅者
+add_executable(${PROJECT_NAME}_sub_node src/demo_sub.cpp)
+target_link_libraries(${PROJECT_NAME}_sub_node ${catkin_LIBRARIES})
+
+
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/demo_comm_pkg.cpp

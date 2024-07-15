@@ -194,6 +194,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "gtest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/DependInfo.cmake"
+  "demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/DependInfo.cmake"
+  "demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/DependInfo.cmake"
   "demo_comm_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake"
   "demo_comm_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
   "demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake"
