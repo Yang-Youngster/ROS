@@ -79,9 +79,9 @@ clean: demo_comm_pkg/clean
 # Directory level rules for directory demo_comm_pkg
 
 # Recursive "all" directory target.
-demo_comm_pkg/all: demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/all
 demo_comm_pkg/all: demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/all
 demo_comm_pkg/all: demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/all
+demo_comm_pkg/all: demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/all
 
 .PHONY : demo_comm_pkg/all
 
@@ -91,9 +91,9 @@ demo_comm_pkg/preinstall:
 .PHONY : demo_comm_pkg/preinstall
 
 # Recursive "clean" directory target.
-demo_comm_pkg/clean: demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/clean
 demo_comm_pkg/clean: demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/clean
 demo_comm_pkg/clean: demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/clean
+demo_comm_pkg/clean: demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/clean
 demo_comm_pkg/clean: demo_comm_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 demo_comm_pkg/clean: demo_comm_pkg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 demo_comm_pkg/clean: demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
@@ -414,33 +414,6 @@ gtest/googletest/CMakeFiles/gtest.dir/clean:
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/clean
 
 #=============================================================================
-# Target rules for target demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir
-
-# All Build rule for target.
-demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/all:
-	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/depend
-	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles --progress-num=1,2 "Built target demo_comm_pkg_node"
-.PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/all
-
-# Build rule for subdir invocation for target.
-demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles 0
-.PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/rule
-
-# Convenience name for target.
-demo_comm_pkg_node: demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/rule
-
-.PHONY : demo_comm_pkg_node
-
-# clean rule for target.
-demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/clean:
-	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/clean
-.PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/clean
-
-#=============================================================================
 # Target rules for target demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir
 
 # All Build rule for target.
@@ -493,6 +466,33 @@ demo_comm_pkg_pub_node: demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/rule
 demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/clean:
 	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/clean
 .PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/clean
+
+#=============================================================================
+# Target rules for target demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir
+
+# All Build rule for target.
+demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/all:
+	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/depend
+	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles --progress-num=1,2 "Built target demo_comm_pkg_node"
+.PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/all
+
+# Build rule for subdir invocation for target.
+demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles 0
+.PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/rule
+
+# Convenience name for target.
+demo_comm_pkg_node: demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/rule
+
+.PHONY : demo_comm_pkg_node
+
+# clean rule for target.
+demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/clean:
+	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/clean
+.PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/clean
 
 #=============================================================================
 # Target rules for target demo_comm_pkg/CMakeFiles/std_msgs_generate_messages_py.dir

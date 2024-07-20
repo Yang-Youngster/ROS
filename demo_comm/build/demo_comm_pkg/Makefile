@@ -168,21 +168,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/rule:
-	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/rule
-.PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/rule
-
-# Convenience name for target.
-demo_comm_pkg_node: demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/rule
-
-.PHONY : demo_comm_pkg_node
-
-# fast build rule for target.
-demo_comm_pkg_node/fast:
-	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build
-.PHONY : demo_comm_pkg_node/fast
-
-# Convenience name for target.
 demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/rule:
 	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/rule
 .PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_node.dir/rule
@@ -211,6 +196,21 @@ demo_comm_pkg_pub_node: demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/rule
 demo_comm_pkg_pub_node/fast:
 	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build
 .PHONY : demo_comm_pkg_pub_node/fast
+
+# Convenience name for target.
+demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/rule:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/rule
+.PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/rule
+
+# Convenience name for target.
+demo_comm_pkg_node: demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/rule
+
+.PHONY : demo_comm_pkg_node
+
+# fast build rule for target.
+demo_comm_pkg_node/fast:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build
+.PHONY : demo_comm_pkg_node/fast
 
 # Convenience name for target.
 demo_comm_pkg/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
@@ -528,9 +528,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... demo_comm_pkg_node"
 	@echo "... demo_comm_pkg_sub_node"
 	@echo "... demo_comm_pkg_pub_node"
+	@echo "... demo_comm_pkg_node"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_cpp"

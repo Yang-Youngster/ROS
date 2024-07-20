@@ -285,19 +285,6 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
-# Target rules for targets named demo_comm_pkg_node
-
-# Build rule for target.
-demo_comm_pkg_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg_node
-.PHONY : demo_comm_pkg_node
-
-# fast build rule for target.
-demo_comm_pkg_node/fast:
-	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build
-.PHONY : demo_comm_pkg_node/fast
-
-#=============================================================================
 # Target rules for targets named demo_comm_pkg_sub_node
 
 # Build rule for target.
@@ -322,6 +309,19 @@ demo_comm_pkg_pub_node: cmake_check_build_system
 demo_comm_pkg_pub_node/fast:
 	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build
 .PHONY : demo_comm_pkg_pub_node/fast
+
+#=============================================================================
+# Target rules for targets named demo_comm_pkg_node
+
+# Build rule for target.
+demo_comm_pkg_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg_node
+.PHONY : demo_comm_pkg_node
+
+# fast build rule for target.
+demo_comm_pkg_node/fast:
+	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build
+.PHONY : demo_comm_pkg_node/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_py
@@ -540,9 +540,9 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... demo_comm_pkg_node"
 	@echo "... demo_comm_pkg_sub_node"
 	@echo "... demo_comm_pkg_pub_node"
+	@echo "... demo_comm_pkg_node"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_cpp"
