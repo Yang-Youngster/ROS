@@ -10,7 +10,10 @@ project(demo_comm_pkg)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
+  
+  ##两者必须配合使用
   std_msgs
+  generate_messages
 )
 
 ## System dependencies are found with CMake's conventions
@@ -176,10 +179,12 @@ target_link_libraries(${PROJECT_NAME}_sub_node
 
 ##python设置文件
 
-# catkin_install_python(PROGRAMS
-#   scripts/my_python_script
-#   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-# )
+catkin_install_python(PROGRAMS
+   scripts/demo_comm.py
+   scripts/demo_pub.py
+   scripts/demo_sub.py
+   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
 
 ## Mark executables for installation
 ## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_executables.html

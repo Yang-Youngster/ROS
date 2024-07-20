@@ -52,3 +52,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_comm_pkg" TYPE FILE FILES "/home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/demo_comm_pkg" TYPE PROGRAM FILES "/home/luoyang/桌面/ROS/demo_comm/build/demo_comm_pkg/catkin_generated/installspace/demo_comm.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/demo_comm_pkg" TYPE PROGRAM FILES "/home/luoyang/桌面/ROS/demo_comm/build/demo_comm_pkg/catkin_generated/installspace/demo_pub.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/demo_comm_pkg" TYPE PROGRAM FILES "/home/luoyang/桌面/ROS/demo_comm/build/demo_comm_pkg/catkin_generated/installspace/demo_sub.py")
+endif()
+

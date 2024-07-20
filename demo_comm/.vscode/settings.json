@@ -10,6 +10,8 @@
         "*.tcc": "cpp",
         "iomanip": "cpp",
         "istream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "ratio": "cpp",
+        "condition_variable": "cpp"
     }
 }
