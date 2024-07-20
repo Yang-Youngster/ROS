@@ -13,7 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   
   ##两者必须配合使用
   std_msgs
-  generate_messages
+  message_generation
 )
 
 ## System dependencies are found with CMake's conventions
@@ -50,11 +50,10 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-# add_message_files(
-#   FILES
-#   Message1.msg
-#   Message2.msg
-# )
+add_message_files(
+  FILES
+  Example.msg
+)
 
 ## Generate services in the 'srv' folder
 # add_service_files(
@@ -71,10 +70,11 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
-#   std_msgs
-# )
+generate_messages(
+  DEPENDENCIES
+  ##表示存放数据类型依赖
+  std_msgs
+)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -105,10 +105,11 @@ find_package(catkin REQUIRED COMPONENTS
 ## LIBRARIES: libraries you create in this project that dependent projects also need
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
+
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES demo_comm_pkg
-#  CATKIN_DEPENDS roscpp rospy std_msgs
+ CATKIN_DEPENDS roscpp rospy std_msgs message_runtime
 #  DEPENDS system_lib
 )
 
@@ -144,6 +145,13 @@ add_executable(${PROJECT_NAME}_node src/demo_comm.cpp)
 add_executable(${PROJECT_NAME}_pub_node src/demo_pub.cpp)
 #订阅者
 add_executable(${PROJECT_NAME}_sub_node src/demo_sub.cpp)
+
+##自定义信息节点发布者
+add_executable(${PROJECT_NAME}_pub_msg_node src/demo_pub_msg.cpp)
+
+##自定义信息节点订阅者
+add_executable(${PROJECT_NAME}_sub_msg_node src/demo_sub_msg.cpp)
+
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -167,6 +175,15 @@ target_link_libraries(${PROJECT_NAME}_sub_node
   ${catkin_LIBRARIES}
 )
 
+target_link_libraries(${PROJECT_NAME}_pub_msg_node 
+  ${catkin_LIBRARIES}
+)
+
+target_link_libraries(${PROJECT_NAME}_sub_msg_node 
+  ${catkin_LIBRARIES}
+)
+
+
 #############
 ## Install ##
 #############
@@ -183,6 +200,8 @@ catkin_install_python(PROGRAMS
    scripts/demo_comm.py
    scripts/demo_pub.py
    scripts/demo_sub.py
+   scripts/demo_pub_msg.py
+   scripts/demo_sub_msg.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
