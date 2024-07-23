@@ -13,9 +13,9 @@ if __name__ == '__main__':
     while not rospy.is_shutdown():
         #键盘输入信息
         msg=Example()
-        msg.name=input("请输入你的名字：")
-        msg.age=int(input("请输入你的年龄："))
-        msg.height=float(input("请输入你的性别："))
+        msg.name="Yang"
+        msg.age=33
+        msg.height=176
         
         pub.publish(msg)
         rate.sleep()

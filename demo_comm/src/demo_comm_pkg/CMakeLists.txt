@@ -7,13 +7,12 @@ project(demo_comm_pkg)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
+##两者必须配合使用
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
-  
-  ##两者必须配合使用
   std_msgs
-  message_generation
+  message_generation  ## 会从 .msg 文件用于定义消息格式的自动生成
 )
 
 ## System dependencies are found with CMake's conventions
