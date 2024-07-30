@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/luoyang/桌面/ROS/demo_comm/build
 include demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_lisp.dir/progress.make
 
 demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_lisp: /home/luoyang/桌面/ROS/demo_comm/devel/share/common-lisp/ros/demo_comm_pkg/msg/Example.lisp
+demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_lisp: /home/luoyang/桌面/ROS/demo_comm/devel/share/common-lisp/ros/demo_comm_pkg/srv/Server_01.lisp
 
 
 /home/luoyang/桌面/ROS/demo_comm/devel/share/common-lisp/ros/demo_comm_pkg/msg/Example.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
@@ -61,8 +62,14 @@ demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_lisp: /home/luoyang/桌
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from demo_comm_pkg/Example.msg"
 	cd /home/luoyang/桌面/ROS/demo_comm/build/demo_comm_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/msg/Example.msg -Idemo_comm_pkg:/home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p demo_comm_pkg -o /home/luoyang/桌面/ROS/demo_comm/devel/share/common-lisp/ros/demo_comm_pkg/msg
 
+/home/luoyang/桌面/ROS/demo_comm/devel/share/common-lisp/ros/demo_comm_pkg/srv/Server_01.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/luoyang/桌面/ROS/demo_comm/devel/share/common-lisp/ros/demo_comm_pkg/srv/Server_01.lisp: /home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/srv/Server_01.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from demo_comm_pkg/Server_01.srv"
+	cd /home/luoyang/桌面/ROS/demo_comm/build/demo_comm_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/srv/Server_01.srv -Idemo_comm_pkg:/home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p demo_comm_pkg -o /home/luoyang/桌面/ROS/demo_comm/devel/share/common-lisp/ros/demo_comm_pkg/srv
+
 demo_comm_pkg_generate_messages_lisp: demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_lisp
 demo_comm_pkg_generate_messages_lisp: /home/luoyang/桌面/ROS/demo_comm/devel/share/common-lisp/ros/demo_comm_pkg/msg/Example.lisp
+demo_comm_pkg_generate_messages_lisp: /home/luoyang/桌面/ROS/demo_comm/devel/share/common-lisp/ros/demo_comm_pkg/srv/Server_01.lisp
 demo_comm_pkg_generate_messages_lisp: demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_lisp.dir/build.make
 
 .PHONY : demo_comm_pkg_generate_messages_lisp

@@ -56,18 +56,6 @@ CMAKE_BINARY_DIR = /home/luoyang/桌面/ROS/demo_comm/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -135,6 +123,18 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	cd /home/luoyang/桌面/ROS/demo_comm/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles /home/luoyang/桌面/ROS/demo_comm/build/demo_comm_pkg/CMakeFiles/progress.marks
@@ -166,6 +166,21 @@ preinstall/fast:
 depend:
 	cd /home/luoyang/桌面/ROS/demo_comm/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+demo_comm_pkg/CMakeFiles/demo_comm_pkg_server_srv_node.dir/rule:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/demo_comm_pkg_server_srv_node.dir/rule
+.PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_server_srv_node.dir/rule
+
+# Convenience name for target.
+demo_comm_pkg_server_srv_node: demo_comm_pkg/CMakeFiles/demo_comm_pkg_server_srv_node.dir/rule
+
+.PHONY : demo_comm_pkg_server_srv_node
+
+# fast build rule for target.
+demo_comm_pkg_server_srv_node/fast:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_server_srv_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_server_srv_node.dir/build
+.PHONY : demo_comm_pkg_server_srv_node/fast
 
 # Convenience name for target.
 demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_msg_node.dir/rule:
@@ -348,6 +363,21 @@ std_msgs_generate_messages_lisp/fast:
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
+demo_comm_pkg/CMakeFiles/demo_comm_pkg_client_srv_node.dir/rule:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/demo_comm_pkg_client_srv_node.dir/rule
+.PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_client_srv_node.dir/rule
+
+# Convenience name for target.
+demo_comm_pkg_client_srv_node: demo_comm_pkg/CMakeFiles/demo_comm_pkg_client_srv_node.dir/rule
+
+.PHONY : demo_comm_pkg_client_srv_node
+
+# fast build rule for target.
+demo_comm_pkg_client_srv_node/fast:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_client_srv_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_client_srv_node.dir/build
+.PHONY : demo_comm_pkg_client_srv_node/fast
+
+# Convenience name for target.
 demo_comm_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
 	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : demo_comm_pkg/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
@@ -391,6 +421,51 @@ demo_comm_pkg_gennodejs: demo_comm_pkg/CMakeFiles/demo_comm_pkg_gennodejs.dir/ru
 demo_comm_pkg_gennodejs/fast:
 	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_gennodejs.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_gennodejs.dir/build
 .PHONY : demo_comm_pkg_gennodejs/fast
+
+# Convenience name for target.
+demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_msg_node.dir/rule:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_msg_node.dir/rule
+.PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_msg_node.dir/rule
+
+# Convenience name for target.
+demo_comm_pkg_sub_msg_node: demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_msg_node.dir/rule
+
+.PHONY : demo_comm_pkg_sub_msg_node
+
+# fast build rule for target.
+demo_comm_pkg_sub_msg_node/fast:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_msg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_msg_node.dir/build
+.PHONY : demo_comm_pkg_sub_msg_node/fast
+
+# Convenience name for target.
+demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/rule:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/rule
+.PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/rule
+
+# Convenience name for target.
+demo_comm_pkg_pub_node: demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/rule
+
+.PHONY : demo_comm_pkg_pub_node
+
+# fast build rule for target.
+demo_comm_pkg_pub_node/fast:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build
+.PHONY : demo_comm_pkg_pub_node/fast
+
+# Convenience name for target.
+demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+.PHONY : demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+roscpp_generate_messages_cpp: demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+
+.PHONY : roscpp_generate_messages_cpp
+
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 demo_comm_pkg/CMakeFiles/demo_comm_pkg_gencpp.dir/rule:
@@ -513,6 +588,21 @@ _demo_comm_pkg_generate_messages_check_deps_Example/fast:
 .PHONY : _demo_comm_pkg_generate_messages_check_deps_Example/fast
 
 # Convenience name for target.
+demo_comm_pkg/CMakeFiles/_demo_comm_pkg_generate_messages_check_deps_Server_01.dir/rule:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/_demo_comm_pkg_generate_messages_check_deps_Server_01.dir/rule
+.PHONY : demo_comm_pkg/CMakeFiles/_demo_comm_pkg_generate_messages_check_deps_Server_01.dir/rule
+
+# Convenience name for target.
+_demo_comm_pkg_generate_messages_check_deps_Server_01: demo_comm_pkg/CMakeFiles/_demo_comm_pkg_generate_messages_check_deps_Server_01.dir/rule
+
+.PHONY : _demo_comm_pkg_generate_messages_check_deps_Server_01
+
+# fast build rule for target.
+_demo_comm_pkg_generate_messages_check_deps_Server_01/fast:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/_demo_comm_pkg_generate_messages_check_deps_Server_01.dir/build.make demo_comm_pkg/CMakeFiles/_demo_comm_pkg_generate_messages_check_deps_Server_01.dir/build
+.PHONY : _demo_comm_pkg_generate_messages_check_deps_Server_01/fast
+
+# Convenience name for target.
 demo_comm_pkg/CMakeFiles/demo_comm_pkg_geneus.dir/rule:
 	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/demo_comm_pkg_geneus.dir/rule
 .PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_geneus.dir/rule
@@ -573,51 +663,6 @@ demo_comm_pkg_generate_messages_nodejs/fast:
 .PHONY : demo_comm_pkg_generate_messages_nodejs/fast
 
 # Convenience name for target.
-demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_msg_node.dir/rule:
-	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_msg_node.dir/rule
-.PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_msg_node.dir/rule
-
-# Convenience name for target.
-demo_comm_pkg_sub_msg_node: demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_msg_node.dir/rule
-
-.PHONY : demo_comm_pkg_sub_msg_node
-
-# fast build rule for target.
-demo_comm_pkg_sub_msg_node/fast:
-	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_msg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_msg_node.dir/build
-.PHONY : demo_comm_pkg_sub_msg_node/fast
-
-# Convenience name for target.
-demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-# Convenience name for target.
-demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/rule:
-	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/rule
-.PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/rule
-
-# Convenience name for target.
-demo_comm_pkg_pub_node: demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/rule
-
-.PHONY : demo_comm_pkg_pub_node
-
-# fast build rule for target.
-demo_comm_pkg_pub_node/fast:
-	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build
-.PHONY : demo_comm_pkg_pub_node/fast
-
-# Convenience name for target.
 demo_comm_pkg/CMakeFiles/demo_comm_pkg_genpy.dir/rule:
 	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg/CMakeFiles/demo_comm_pkg_genpy.dir/rule
 .PHONY : demo_comm_pkg/CMakeFiles/demo_comm_pkg_genpy.dir/rule
@@ -646,6 +691,33 @@ demo_comm_pkg_node: demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/rule
 demo_comm_pkg_node/fast:
 	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_node.dir/build
 .PHONY : demo_comm_pkg_node/fast
+
+src/demo_client_srv.o: src/demo_client_srv.cpp.o
+
+.PHONY : src/demo_client_srv.o
+
+# target to build an object file
+src/demo_client_srv.cpp.o:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_client_srv_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_client_srv_node.dir/src/demo_client_srv.cpp.o
+.PHONY : src/demo_client_srv.cpp.o
+
+src/demo_client_srv.i: src/demo_client_srv.cpp.i
+
+.PHONY : src/demo_client_srv.i
+
+# target to preprocess a source file
+src/demo_client_srv.cpp.i:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_client_srv_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_client_srv_node.dir/src/demo_client_srv.cpp.i
+.PHONY : src/demo_client_srv.cpp.i
+
+src/demo_client_srv.s: src/demo_client_srv.cpp.s
+
+.PHONY : src/demo_client_srv.s
+
+# target to generate assembly for a file
+src/demo_client_srv.cpp.s:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_client_srv_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_client_srv_node.dir/src/demo_client_srv.cpp.s
+.PHONY : src/demo_client_srv.cpp.s
 
 src/demo_comm.o: src/demo_comm.cpp.o
 
@@ -728,6 +800,33 @@ src/demo_pub_msg.cpp.s:
 	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_msg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_msg_node.dir/src/demo_pub_msg.cpp.s
 .PHONY : src/demo_pub_msg.cpp.s
 
+src/demo_server_srv.o: src/demo_server_srv.cpp.o
+
+.PHONY : src/demo_server_srv.o
+
+# target to build an object file
+src/demo_server_srv.cpp.o:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_server_srv_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_server_srv_node.dir/src/demo_server_srv.cpp.o
+.PHONY : src/demo_server_srv.cpp.o
+
+src/demo_server_srv.i: src/demo_server_srv.cpp.i
+
+.PHONY : src/demo_server_srv.i
+
+# target to preprocess a source file
+src/demo_server_srv.cpp.i:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_server_srv_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_server_srv_node.dir/src/demo_server_srv.cpp.i
+.PHONY : src/demo_server_srv.cpp.i
+
+src/demo_server_srv.s: src/demo_server_srv.cpp.s
+
+.PHONY : src/demo_server_srv.s
+
+# target to generate assembly for a file
+src/demo_server_srv.cpp.s:
+	cd /home/luoyang/桌面/ROS/demo_comm/build && $(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_server_srv_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_server_srv_node.dir/src/demo_server_srv.cpp.s
+.PHONY : src/demo_server_srv.cpp.s
+
 src/demo_sub.o: src/demo_sub.cpp.o
 
 .PHONY : src/demo_sub.o
@@ -788,10 +887,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... edit_cache"
+	@echo "... demo_comm_pkg_server_srv_node"
 	@echo "... demo_comm_pkg_pub_msg_node"
 	@echo "... demo_comm_pkg_sub_node"
 	@echo "... rosgraph_msgs_generate_messages_py"
@@ -806,10 +905,14 @@ help:
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... demo_comm_pkg_client_srv_node"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rebuild_cache"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... demo_comm_pkg_gennodejs"
+	@echo "... demo_comm_pkg_sub_msg_node"
+	@echo "... demo_comm_pkg_pub_node"
+	@echo "... roscpp_generate_messages_cpp"
 	@echo "... demo_comm_pkg_gencpp"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... demo_comm_pkg_generate_messages_eus"
@@ -818,15 +921,17 @@ help:
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... demo_comm_pkg_generate_messages_cpp"
 	@echo "... _demo_comm_pkg_generate_messages_check_deps_Example"
+	@echo "... install/strip"
+	@echo "... _demo_comm_pkg_generate_messages_check_deps_Server_01"
 	@echo "... demo_comm_pkg_geneus"
 	@echo "... demo_comm_pkg_generate_messages_lisp"
 	@echo "... demo_comm_pkg_genlisp"
 	@echo "... demo_comm_pkg_generate_messages_nodejs"
-	@echo "... demo_comm_pkg_sub_msg_node"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... demo_comm_pkg_pub_node"
 	@echo "... demo_comm_pkg_genpy"
 	@echo "... demo_comm_pkg_node"
+	@echo "... src/demo_client_srv.o"
+	@echo "... src/demo_client_srv.i"
+	@echo "... src/demo_client_srv.s"
 	@echo "... src/demo_comm.o"
 	@echo "... src/demo_comm.i"
 	@echo "... src/demo_comm.s"
@@ -836,6 +941,9 @@ help:
 	@echo "... src/demo_pub_msg.o"
 	@echo "... src/demo_pub_msg.i"
 	@echo "... src/demo_pub_msg.s"
+	@echo "... src/demo_server_srv.o"
+	@echo "... src/demo_server_srv.i"
+	@echo "... src/demo_server_srv.s"
 	@echo "... src/demo_sub.o"
 	@echo "... src/demo_sub.i"
 	@echo "... src/demo_sub.s"

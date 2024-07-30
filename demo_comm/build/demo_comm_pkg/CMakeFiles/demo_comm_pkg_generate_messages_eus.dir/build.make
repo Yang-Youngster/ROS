@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/luoyang/桌面/ROS/demo_comm/build
 include demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_eus.dir/progress.make
 
 demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_eus: /home/luoyang/桌面/ROS/demo_comm/devel/share/roseus/ros/demo_comm_pkg/msg/Example.l
+demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_eus: /home/luoyang/桌面/ROS/demo_comm/devel/share/roseus/ros/demo_comm_pkg/srv/Server_01.l
 demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_eus: /home/luoyang/桌面/ROS/demo_comm/devel/share/roseus/ros/demo_comm_pkg/manifest.l
 
 
@@ -62,12 +63,18 @@ demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_eus: /home/luoyang/桌�
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from demo_comm_pkg/Example.msg"
 	cd /home/luoyang/桌面/ROS/demo_comm/build/demo_comm_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/msg/Example.msg -Idemo_comm_pkg:/home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p demo_comm_pkg -o /home/luoyang/桌面/ROS/demo_comm/devel/share/roseus/ros/demo_comm_pkg/msg
 
+/home/luoyang/桌面/ROS/demo_comm/devel/share/roseus/ros/demo_comm_pkg/srv/Server_01.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/home/luoyang/桌面/ROS/demo_comm/devel/share/roseus/ros/demo_comm_pkg/srv/Server_01.l: /home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/srv/Server_01.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from demo_comm_pkg/Server_01.srv"
+	cd /home/luoyang/桌面/ROS/demo_comm/build/demo_comm_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/srv/Server_01.srv -Idemo_comm_pkg:/home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p demo_comm_pkg -o /home/luoyang/桌面/ROS/demo_comm/devel/share/roseus/ros/demo_comm_pkg/srv
+
 /home/luoyang/桌面/ROS/demo_comm/devel/share/roseus/ros/demo_comm_pkg/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for demo_comm_pkg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for demo_comm_pkg"
 	cd /home/luoyang/桌面/ROS/demo_comm/build/demo_comm_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/luoyang/桌面/ROS/demo_comm/devel/share/roseus/ros/demo_comm_pkg demo_comm_pkg std_msgs
 
 demo_comm_pkg_generate_messages_eus: demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_eus
 demo_comm_pkg_generate_messages_eus: /home/luoyang/桌面/ROS/demo_comm/devel/share/roseus/ros/demo_comm_pkg/msg/Example.l
+demo_comm_pkg_generate_messages_eus: /home/luoyang/桌面/ROS/demo_comm/devel/share/roseus/ros/demo_comm_pkg/srv/Server_01.l
 demo_comm_pkg_generate_messages_eus: /home/luoyang/桌面/ROS/demo_comm/devel/share/roseus/ros/demo_comm_pkg/manifest.l
 demo_comm_pkg_generate_messages_eus: demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_eus.dir/build.make
 

@@ -54,7 +54,9 @@ CMAKE_BINARY_DIR = /home/luoyang/桌面/ROS/demo_comm/build
 include demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_py.dir/progress.make
 
 demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_py: /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/msg/_Example.py
+demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_py: /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/srv/_Server_01.py
 demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_py: /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/msg/__init__.py
+demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_py: /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/srv/__init__.py
 
 
 /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/msg/_Example.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
@@ -62,14 +64,28 @@ demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_py: /home/luoyang/桌�
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG demo_comm_pkg/Example"
 	cd /home/luoyang/桌面/ROS/demo_comm/build/demo_comm_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/msg/Example.msg -Idemo_comm_pkg:/home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p demo_comm_pkg -o /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/msg
 
+/home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/srv/_Server_01.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/srv/_Server_01.py: /home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/srv/Server_01.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV demo_comm_pkg/Server_01"
+	cd /home/luoyang/桌面/ROS/demo_comm/build/demo_comm_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/srv/Server_01.srv -Idemo_comm_pkg:/home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p demo_comm_pkg -o /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/srv
+
 /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/msg/__init__.py: /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/msg/_Example.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for demo_comm_pkg"
+/home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/msg/__init__.py: /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/srv/_Server_01.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for demo_comm_pkg"
 	cd /home/luoyang/桌面/ROS/demo_comm/build/demo_comm_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/msg --initpy
+
+/home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/srv/__init__.py: /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/msg/_Example.py
+/home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/srv/__init__.py: /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/srv/_Server_01.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for demo_comm_pkg"
+	cd /home/luoyang/桌面/ROS/demo_comm/build/demo_comm_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/srv --initpy
 
 demo_comm_pkg_generate_messages_py: demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_py
 demo_comm_pkg_generate_messages_py: /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/msg/_Example.py
+demo_comm_pkg_generate_messages_py: /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/srv/_Server_01.py
 demo_comm_pkg_generate_messages_py: /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/msg/__init__.py
+demo_comm_pkg_generate_messages_py: /home/luoyang/桌面/ROS/demo_comm/devel/lib/python3/dist-packages/demo_comm_pkg/srv/__init__.py
 demo_comm_pkg_generate_messages_py: demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_py.dir/build.make
 
 .PHONY : demo_comm_pkg_generate_messages_py

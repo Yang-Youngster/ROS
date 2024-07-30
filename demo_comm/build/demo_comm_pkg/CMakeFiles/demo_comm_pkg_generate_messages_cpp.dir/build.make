@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/luoyang/桌面/ROS/demo_comm/build
 include demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_cpp.dir/progress.make
 
 demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_cpp: /home/luoyang/桌面/ROS/demo_comm/devel/include/demo_comm_pkg/Example.h
+demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_cpp: /home/luoyang/桌面/ROS/demo_comm/devel/include/demo_comm_pkg/Server_01.h
 
 
 /home/luoyang/桌面/ROS/demo_comm/devel/include/demo_comm_pkg/Example.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
@@ -62,8 +63,16 @@ demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_cpp: /home/luoyang/桌�
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from demo_comm_pkg/Example.msg"
 	cd /home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg && /home/luoyang/桌面/ROS/demo_comm/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/msg/Example.msg -Idemo_comm_pkg:/home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p demo_comm_pkg -o /home/luoyang/桌面/ROS/demo_comm/devel/include/demo_comm_pkg -e /opt/ros/noetic/share/gencpp/cmake/..
 
+/home/luoyang/桌面/ROS/demo_comm/devel/include/demo_comm_pkg/Server_01.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/luoyang/桌面/ROS/demo_comm/devel/include/demo_comm_pkg/Server_01.h: /home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/srv/Server_01.srv
+/home/luoyang/桌面/ROS/demo_comm/devel/include/demo_comm_pkg/Server_01.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/luoyang/桌面/ROS/demo_comm/devel/include/demo_comm_pkg/Server_01.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luoyang/桌面/ROS/demo_comm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from demo_comm_pkg/Server_01.srv"
+	cd /home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg && /home/luoyang/桌面/ROS/demo_comm/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/srv/Server_01.srv -Idemo_comm_pkg:/home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p demo_comm_pkg -o /home/luoyang/桌面/ROS/demo_comm/devel/include/demo_comm_pkg -e /opt/ros/noetic/share/gencpp/cmake/..
+
 demo_comm_pkg_generate_messages_cpp: demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_cpp
 demo_comm_pkg_generate_messages_cpp: /home/luoyang/桌面/ROS/demo_comm/devel/include/demo_comm_pkg/Example.h
+demo_comm_pkg_generate_messages_cpp: /home/luoyang/桌面/ROS/demo_comm/devel/include/demo_comm_pkg/Server_01.h
 demo_comm_pkg_generate_messages_cpp: demo_comm_pkg/CMakeFiles/demo_comm_pkg_generate_messages_cpp.dir/build.make
 
 .PHONY : demo_comm_pkg_generate_messages_cpp

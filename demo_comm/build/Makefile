@@ -285,6 +285,19 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named demo_comm_pkg_server_srv_node
+
+# Build rule for target.
+demo_comm_pkg_server_srv_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg_server_srv_node
+.PHONY : demo_comm_pkg_server_srv_node
+
+# fast build rule for target.
+demo_comm_pkg_server_srv_node/fast:
+	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_server_srv_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_server_srv_node.dir/build
+.PHONY : demo_comm_pkg_server_srv_node/fast
+
+#=============================================================================
 # Target rules for targets named demo_comm_pkg_pub_msg_node
 
 # Build rule for target.
@@ -441,6 +454,19 @@ std_msgs_generate_messages_lisp/fast:
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named demo_comm_pkg_client_srv_node
+
+# Build rule for target.
+demo_comm_pkg_client_srv_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg_client_srv_node
+.PHONY : demo_comm_pkg_client_srv_node
+
+# fast build rule for target.
+demo_comm_pkg_client_srv_node/fast:
+	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_client_srv_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_client_srv_node.dir/build
+.PHONY : demo_comm_pkg_client_srv_node/fast
+
+#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -478,6 +504,45 @@ demo_comm_pkg_gennodejs: cmake_check_build_system
 demo_comm_pkg_gennodejs/fast:
 	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_gennodejs.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_gennodejs.dir/build
 .PHONY : demo_comm_pkg_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named demo_comm_pkg_sub_msg_node
+
+# Build rule for target.
+demo_comm_pkg_sub_msg_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg_sub_msg_node
+.PHONY : demo_comm_pkg_sub_msg_node
+
+# fast build rule for target.
+demo_comm_pkg_sub_msg_node/fast:
+	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_msg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_msg_node.dir/build
+.PHONY : demo_comm_pkg_sub_msg_node/fast
+
+#=============================================================================
+# Target rules for targets named demo_comm_pkg_pub_node
+
+# Build rule for target.
+demo_comm_pkg_pub_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg_pub_node
+.PHONY : demo_comm_pkg_pub_node
+
+# fast build rule for target.
+demo_comm_pkg_pub_node/fast:
+	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build
+.PHONY : demo_comm_pkg_pub_node/fast
+
+#=============================================================================
+# Target rules for targets named roscpp_generate_messages_cpp
+
+# Build rule for target.
+roscpp_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_cpp
+.PHONY : roscpp_generate_messages_cpp
+
+# fast build rule for target.
+roscpp_generate_messages_cpp/fast:
+	$(MAKE) -f demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+.PHONY : roscpp_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named demo_comm_pkg_gencpp
@@ -584,6 +649,19 @@ _demo_comm_pkg_generate_messages_check_deps_Example/fast:
 .PHONY : _demo_comm_pkg_generate_messages_check_deps_Example/fast
 
 #=============================================================================
+# Target rules for targets named _demo_comm_pkg_generate_messages_check_deps_Server_01
+
+# Build rule for target.
+_demo_comm_pkg_generate_messages_check_deps_Server_01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _demo_comm_pkg_generate_messages_check_deps_Server_01
+.PHONY : _demo_comm_pkg_generate_messages_check_deps_Server_01
+
+# fast build rule for target.
+_demo_comm_pkg_generate_messages_check_deps_Server_01/fast:
+	$(MAKE) -f demo_comm_pkg/CMakeFiles/_demo_comm_pkg_generate_messages_check_deps_Server_01.dir/build.make demo_comm_pkg/CMakeFiles/_demo_comm_pkg_generate_messages_check_deps_Server_01.dir/build
+.PHONY : _demo_comm_pkg_generate_messages_check_deps_Server_01/fast
+
+#=============================================================================
 # Target rules for targets named demo_comm_pkg_geneus
 
 # Build rule for target.
@@ -636,45 +714,6 @@ demo_comm_pkg_generate_messages_nodejs/fast:
 .PHONY : demo_comm_pkg_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named demo_comm_pkg_sub_msg_node
-
-# Build rule for target.
-demo_comm_pkg_sub_msg_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg_sub_msg_node
-.PHONY : demo_comm_pkg_sub_msg_node
-
-# fast build rule for target.
-demo_comm_pkg_sub_msg_node/fast:
-	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_msg_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_sub_msg_node.dir/build
-.PHONY : demo_comm_pkg_sub_msg_node/fast
-
-#=============================================================================
-# Target rules for targets named roscpp_generate_messages_cpp
-
-# Build rule for target.
-roscpp_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_cpp
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	$(MAKE) -f demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make demo_comm_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named demo_comm_pkg_pub_node
-
-# Build rule for target.
-demo_comm_pkg_pub_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 demo_comm_pkg_pub_node
-.PHONY : demo_comm_pkg_pub_node
-
-# fast build rule for target.
-demo_comm_pkg_pub_node/fast:
-	$(MAKE) -f demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build.make demo_comm_pkg/CMakeFiles/demo_comm_pkg_pub_node.dir/build
-.PHONY : demo_comm_pkg_pub_node/fast
-
-#=============================================================================
 # Target rules for targets named demo_comm_pkg_genpy
 
 # Build rule for target.
@@ -722,6 +761,7 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... demo_comm_pkg_server_srv_node"
 	@echo "... demo_comm_pkg_pub_msg_node"
 	@echo "... demo_comm_pkg_sub_node"
 	@echo "... rosgraph_msgs_generate_messages_py"
@@ -734,9 +774,13 @@ help:
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... demo_comm_pkg_client_srv_node"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... demo_comm_pkg_gennodejs"
+	@echo "... demo_comm_pkg_sub_msg_node"
+	@echo "... demo_comm_pkg_pub_node"
+	@echo "... roscpp_generate_messages_cpp"
 	@echo "... demo_comm_pkg_gencpp"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... demo_comm_pkg_generate_messages_eus"
@@ -745,13 +789,11 @@ help:
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... demo_comm_pkg_generate_messages_cpp"
 	@echo "... _demo_comm_pkg_generate_messages_check_deps_Example"
+	@echo "... _demo_comm_pkg_generate_messages_check_deps_Server_01"
 	@echo "... demo_comm_pkg_geneus"
 	@echo "... demo_comm_pkg_generate_messages_lisp"
 	@echo "... demo_comm_pkg_genlisp"
 	@echo "... demo_comm_pkg_generate_messages_nodejs"
-	@echo "... demo_comm_pkg_sub_msg_node"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... demo_comm_pkg_pub_node"
 	@echo "... demo_comm_pkg_genpy"
 	@echo "... demo_comm_pkg_node"
 .PHONY : help

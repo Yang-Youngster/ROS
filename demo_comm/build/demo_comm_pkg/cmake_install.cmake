@@ -42,6 +42,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_comm_pkg/srv" TYPE FILE FILES "/home/luoyang/桌面/ROS/demo_comm/src/demo_comm_pkg/srv/Server_01.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_comm_pkg/cmake" TYPE FILE FILES "/home/luoyang/桌面/ROS/demo_comm/build/demo_comm_pkg/catkin_generated/installspace/demo_comm_pkg-msg-paths.cmake")
 endif()
 

@@ -2,6 +2,8 @@
 #include "demo_comm_pkg/Example.h"
 
 void doMsg(const demo_comm_pkg::Example::ConstPtr& msg_p){
+
+    //c_str 转换成c语言字符串 
      ROS_INFO(" name:%s  age:%d   height:%f",msg_p->name.c_str(),msg_p->age,msg_p->height);
     // ROS_INFO("我听见:%s",(*msg_p).data.c_str());
 }

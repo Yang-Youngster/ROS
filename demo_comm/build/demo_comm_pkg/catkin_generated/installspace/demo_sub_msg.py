@@ -9,8 +9,5 @@ if __name__ == '__main__':
     rospy.init_node('demo_sub_msg')
     pub = rospy.Subscriber("Example", Example, doMsgs, queue_size=10)
 
-
-
-   
     #回调函数
     rospy.spin()
