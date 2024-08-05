@@ -1,0 +1,8 @@
+prefix=/home/luoyang/桌面/ROS/robat_simulation/devel
+
+Name: robat_simulation_pkg
+Description: Description of robat_simulation_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
