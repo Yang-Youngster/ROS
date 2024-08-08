@@ -1,0 +1,2 @@
+all_comm_test_pkg
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/luoyang/桌面/ROS/all_comm_Test/devel -DCMAKE_INSTALL_PREFIX=/home/luoyang/桌面/ROS/all_comm_Test/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/luoyang/桌面/ROS/all_comm_Test/install
+
+Name: all_comm_test_pkg
+Description: Description of all_comm_test_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
