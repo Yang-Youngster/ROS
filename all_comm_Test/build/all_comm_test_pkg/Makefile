@@ -56,6 +56,17 @@ CMAKE_BINARY_DIR = /home/luoyang/桌面/ROS/all_comm_Test/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -67,17 +78,6 @@ install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -166,6 +166,36 @@ preinstall/fast:
 depend:
 	cd /home/luoyang/桌面/ROS/all_comm_Test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+# Convenience name for target.
+all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_swpan_node.dir/rule:
+	cd /home/luoyang/桌面/ROS/all_comm_Test/build && $(MAKE) -f CMakeFiles/Makefile2 all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_swpan_node.dir/rule
+.PHONY : all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_swpan_node.dir/rule
+
+# Convenience name for target.
+all_comm_test_pkg_swpan_node: all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_swpan_node.dir/rule
+
+.PHONY : all_comm_test_pkg_swpan_node
+
+# fast build rule for target.
+all_comm_test_pkg_swpan_node/fast:
+	cd /home/luoyang/桌面/ROS/all_comm_Test/build && $(MAKE) -f all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_swpan_node.dir/build.make all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_swpan_node.dir/build
+.PHONY : all_comm_test_pkg_swpan_node/fast
+
+# Convenience name for target.
+all_comm_test_pkg/CMakeFiles/all_comm_test_pkg__sub_node.dir/rule:
+	cd /home/luoyang/桌面/ROS/all_comm_Test/build && $(MAKE) -f CMakeFiles/Makefile2 all_comm_test_pkg/CMakeFiles/all_comm_test_pkg__sub_node.dir/rule
+.PHONY : all_comm_test_pkg/CMakeFiles/all_comm_test_pkg__sub_node.dir/rule
+
+# Convenience name for target.
+all_comm_test_pkg__sub_node: all_comm_test_pkg/CMakeFiles/all_comm_test_pkg__sub_node.dir/rule
+
+.PHONY : all_comm_test_pkg__sub_node
+
+# fast build rule for target.
+all_comm_test_pkg__sub_node/fast:
+	cd /home/luoyang/桌面/ROS/all_comm_Test/build && $(MAKE) -f all_comm_test_pkg/CMakeFiles/all_comm_test_pkg__sub_node.dir/build.make all_comm_test_pkg/CMakeFiles/all_comm_test_pkg__sub_node.dir/build
+.PHONY : all_comm_test_pkg__sub_node/fast
 
 # Convenience name for target.
 all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_node.dir/rule:
@@ -434,14 +464,70 @@ src/tur_cycle_action.cpp.s:
 	cd /home/luoyang/桌面/ROS/all_comm_Test/build && $(MAKE) -f all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_node.dir/build.make all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_node.dir/src/tur_cycle_action.cpp.s
 .PHONY : src/tur_cycle_action.cpp.s
 
+src/tur_cycle_action_sub.o: src/tur_cycle_action_sub.cpp.o
+
+.PHONY : src/tur_cycle_action_sub.o
+
+# target to build an object file
+src/tur_cycle_action_sub.cpp.o:
+	cd /home/luoyang/桌面/ROS/all_comm_Test/build && $(MAKE) -f all_comm_test_pkg/CMakeFiles/all_comm_test_pkg__sub_node.dir/build.make all_comm_test_pkg/CMakeFiles/all_comm_test_pkg__sub_node.dir/src/tur_cycle_action_sub.cpp.o
+.PHONY : src/tur_cycle_action_sub.cpp.o
+
+src/tur_cycle_action_sub.i: src/tur_cycle_action_sub.cpp.i
+
+.PHONY : src/tur_cycle_action_sub.i
+
+# target to preprocess a source file
+src/tur_cycle_action_sub.cpp.i:
+	cd /home/luoyang/桌面/ROS/all_comm_Test/build && $(MAKE) -f all_comm_test_pkg/CMakeFiles/all_comm_test_pkg__sub_node.dir/build.make all_comm_test_pkg/CMakeFiles/all_comm_test_pkg__sub_node.dir/src/tur_cycle_action_sub.cpp.i
+.PHONY : src/tur_cycle_action_sub.cpp.i
+
+src/tur_cycle_action_sub.s: src/tur_cycle_action_sub.cpp.s
+
+.PHONY : src/tur_cycle_action_sub.s
+
+# target to generate assembly for a file
+src/tur_cycle_action_sub.cpp.s:
+	cd /home/luoyang/桌面/ROS/all_comm_Test/build && $(MAKE) -f all_comm_test_pkg/CMakeFiles/all_comm_test_pkg__sub_node.dir/build.make all_comm_test_pkg/CMakeFiles/all_comm_test_pkg__sub_node.dir/src/tur_cycle_action_sub.cpp.s
+.PHONY : src/tur_cycle_action_sub.cpp.s
+
+src/tur_spwan.o: src/tur_spwan.cpp.o
+
+.PHONY : src/tur_spwan.o
+
+# target to build an object file
+src/tur_spwan.cpp.o:
+	cd /home/luoyang/桌面/ROS/all_comm_Test/build && $(MAKE) -f all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_swpan_node.dir/build.make all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_swpan_node.dir/src/tur_spwan.cpp.o
+.PHONY : src/tur_spwan.cpp.o
+
+src/tur_spwan.i: src/tur_spwan.cpp.i
+
+.PHONY : src/tur_spwan.i
+
+# target to preprocess a source file
+src/tur_spwan.cpp.i:
+	cd /home/luoyang/桌面/ROS/all_comm_Test/build && $(MAKE) -f all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_swpan_node.dir/build.make all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_swpan_node.dir/src/tur_spwan.cpp.i
+.PHONY : src/tur_spwan.cpp.i
+
+src/tur_spwan.s: src/tur_spwan.cpp.s
+
+.PHONY : src/tur_spwan.s
+
+# target to generate assembly for a file
+src/tur_spwan.cpp.s:
+	cd /home/luoyang/桌面/ROS/all_comm_Test/build && $(MAKE) -f all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_swpan_node.dir/build.make all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_swpan_node.dir/src/tur_spwan.cpp.s
+.PHONY : src/tur_spwan.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/local"
 	@echo "... test"
+	@echo "... install/local"
+	@echo "... all_comm_test_pkg_swpan_node"
+	@echo "... all_comm_test_pkg__sub_node"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... all_comm_test_pkg_node"
@@ -466,6 +552,12 @@ help:
 	@echo "... src/tur_cycle_action.o"
 	@echo "... src/tur_cycle_action.i"
 	@echo "... src/tur_cycle_action.s"
+	@echo "... src/tur_cycle_action_sub.o"
+	@echo "... src/tur_cycle_action_sub.i"
+	@echo "... src/tur_cycle_action_sub.s"
+	@echo "... src/tur_spwan.o"
+	@echo "... src/tur_spwan.i"
+	@echo "... src/tur_spwan.s"
 .PHONY : help
 
 

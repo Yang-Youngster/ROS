@@ -285,6 +285,32 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named all_comm_test_pkg_swpan_node
+
+# Build rule for target.
+all_comm_test_pkg_swpan_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 all_comm_test_pkg_swpan_node
+.PHONY : all_comm_test_pkg_swpan_node
+
+# fast build rule for target.
+all_comm_test_pkg_swpan_node/fast:
+	$(MAKE) -f all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_swpan_node.dir/build.make all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_swpan_node.dir/build
+.PHONY : all_comm_test_pkg_swpan_node/fast
+
+#=============================================================================
+# Target rules for targets named all_comm_test_pkg__sub_node
+
+# Build rule for target.
+all_comm_test_pkg__sub_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 all_comm_test_pkg__sub_node
+.PHONY : all_comm_test_pkg__sub_node
+
+# fast build rule for target.
+all_comm_test_pkg__sub_node/fast:
+	$(MAKE) -f all_comm_test_pkg/CMakeFiles/all_comm_test_pkg__sub_node.dir/build.make all_comm_test_pkg/CMakeFiles/all_comm_test_pkg__sub_node.dir/build
+.PHONY : all_comm_test_pkg__sub_node/fast
+
+#=============================================================================
 # Target rules for targets named all_comm_test_pkg_node
 
 # Build rule for target.
@@ -514,6 +540,8 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... all_comm_test_pkg_swpan_node"
+	@echo "... all_comm_test_pkg__sub_node"
 	@echo "... all_comm_test_pkg_node"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... std_msgs_generate_messages_nodejs"

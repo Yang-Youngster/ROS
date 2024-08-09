@@ -35,8 +35,10 @@
 /home/luoyang/桌面/ROS/all_comm_Test/build/gtest/googletest/CMakeFiles/test.dir
 /home/luoyang/桌面/ROS/all_comm_Test/build/gtest/googletest/CMakeFiles/gtest_main.dir
 /home/luoyang/桌面/ROS/all_comm_Test/build/gtest/googletest/CMakeFiles/gtest.dir
-/home/luoyang/桌面/ROS/all_comm_Test/build/all_comm_test_pkg/CMakeFiles/install/local.dir
 /home/luoyang/桌面/ROS/all_comm_Test/build/all_comm_test_pkg/CMakeFiles/test.dir
+/home/luoyang/桌面/ROS/all_comm_Test/build/all_comm_test_pkg/CMakeFiles/install/local.dir
+/home/luoyang/桌面/ROS/all_comm_Test/build/all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_swpan_node.dir
+/home/luoyang/桌面/ROS/all_comm_Test/build/all_comm_test_pkg/CMakeFiles/all_comm_test_pkg__sub_node.dir
 /home/luoyang/桌面/ROS/all_comm_Test/build/all_comm_test_pkg/CMakeFiles/rebuild_cache.dir
 /home/luoyang/桌面/ROS/all_comm_Test/build/all_comm_test_pkg/CMakeFiles/edit_cache.dir
 /home/luoyang/桌面/ROS/all_comm_Test/build/all_comm_test_pkg/CMakeFiles/all_comm_test_pkg_node.dir
