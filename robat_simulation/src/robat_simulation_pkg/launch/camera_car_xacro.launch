@@ -3,7 +3,7 @@
 
     <!-- <node pkg="rviz" type="rviz" name="rviz" args="-d $(find robat_simulation_pkg)/config/roabt_01.rviz" /> -->
         <!-- 启动 rviz -->
-    <node pkg="rviz" type="rviz" name="rviz" />
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find 报名)/config/camera_car.rviz" />
 
     <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" output="screen" />
     <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen" />
