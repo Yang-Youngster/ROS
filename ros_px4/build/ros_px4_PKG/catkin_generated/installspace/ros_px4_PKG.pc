@@ -1,0 +1,8 @@
+prefix=/home/luoyang/ROS/ros_px4/install
+
+Name: ros_px4_PKG
+Description: Description of ros_px4_PKG
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

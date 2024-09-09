@@ -1,0 +1,2 @@
+ros_px4_PKG
+-DCATKIN_DEVEL_PREFIX=/home/luoyang/ROS/ros_px4/devel -DCMAKE_INSTALL_PREFIX=/home/luoyang/ROS/ros_px4/install -G Unix Makefiles
