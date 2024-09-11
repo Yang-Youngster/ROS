@@ -9,6 +9,7 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/luoyang/ROS/ros_px4/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/luoyang/ROS/ros_px4/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/luoyang/ROS/ros_px4/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/luoyang/ROS/ros_px4/build'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/luoyang/ROS/ros_px4/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH='/home/luoyang/ROS/ros_px4/src:/home/luoyang/catkin_ws/src:/opt/ros/noetic/share'

@@ -102,8 +102,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/noetic/share/rosgraph_msgs/cmake/rosgraph_msgs-msg-extras.cmake"
   "/opt/ros/noetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig-version.cmake"
   "/opt/ros/noetic/share/rosgraph_msgs/cmake/rosgraph_msgsConfig.cmake"
-  "/opt/ros/noetic/share/rospy/cmake/rospyConfig-version.cmake"
-  "/opt/ros/noetic/share/rospy/cmake/rospyConfig.cmake"
   "/opt/ros/noetic/share/rostime/cmake/rostimeConfig-version.cmake"
   "/opt/ros/noetic/share/rostime/cmake/rostimeConfig.cmake"
   "/opt/ros/noetic/share/sensor_msgs/cmake/sensor_msgs-msg-extras.cmake"
