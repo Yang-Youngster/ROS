@@ -1,0 +1,7 @@
+PX4 HOw to launch
+
+roscore 
+
+roslaunch px4 mavros_posix_sitl.launch
+
+rosrun own workspace node

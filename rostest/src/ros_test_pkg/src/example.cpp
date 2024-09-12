@@ -21,9 +21,9 @@ int main(int argc, char **argv)
     ros::NodeHandle nh;
 
     ros::Subscriber state_sub = nh.subscribe<mavros_msgs::State>
-            ("mavros/state", 10, state_cb);
+            ("mavros/state", 1, state_cb);
     ros::Publisher local_pos_pub = nh.advertise<geometry_msgs::PoseStamped>
-            ("mavros/setpoint_position/local", 10);
+            ("mavros/setpoint_position/local", 1);
     ros::ServiceClient arming_client = nh.serviceClient<mavros_msgs::CommandBool>
             ("mavros/cmd/arming");
     ros::ServiceClient set_mode_client = nh.serviceClient<mavros_msgs::SetMode>
@@ -36,6 +36,7 @@ int main(int argc, char **argv)
     while(ros::ok() && !current_state.connected){
         ros::spinOnce();
         rate.sleep();
+        ROS_INFO("Waiting for FCU connection...");
     }
 
     geometry_msgs::PoseStamped pose;
@@ -48,6 +49,7 @@ int main(int argc, char **argv)
         local_pos_pub.publish(pose);
         ros::spinOnce();
         rate.sleep();
+        ROS_INFO("Publishing setpoints...");
     }
 
     mavros_msgs::SetMode offb_set_mode;
