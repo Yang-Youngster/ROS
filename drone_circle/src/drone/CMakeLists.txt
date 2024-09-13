@@ -138,10 +138,15 @@ include_directories(
 
 add_executable(drone_node src/base.cpp)
 
+add_executable(drone_square_node src/square.cpp)
+
 target_link_libraries(drone_node
   ${catkin_LIBRARIES}
 )
 
+target_link_libraries(drone_square_node
+  ${catkin_LIBRARIES}
+)
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use

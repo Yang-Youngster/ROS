@@ -223,6 +223,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "drone/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
   "drone/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "drone/CMakeFiles/std_msgs_generate_messages_cpp.dir/DependInfo.cmake"
+  "drone/CMakeFiles/drone_square_node.dir/DependInfo.cmake"
   "drone/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
   "drone/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake"
   "drone/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake"

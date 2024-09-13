@@ -57,6 +57,7 @@
 /home/luoyang/ROS/drone_circle/build/drone/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir
 /home/luoyang/ROS/drone_circle/build/drone/CMakeFiles/geometry_msgs_generate_messages_lisp.dir
 /home/luoyang/ROS/drone_circle/build/drone/CMakeFiles/std_msgs_generate_messages_cpp.dir
+/home/luoyang/ROS/drone_circle/build/drone/CMakeFiles/drone_square_node.dir
 /home/luoyang/ROS/drone_circle/build/drone/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
 /home/luoyang/ROS/drone_circle/build/drone/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
 /home/luoyang/ROS/drone_circle/build/drone/CMakeFiles/test.dir

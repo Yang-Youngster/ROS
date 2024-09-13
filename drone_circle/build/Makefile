@@ -506,6 +506,19 @@ std_msgs_generate_messages_cpp/fast:
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named drone_square_node
+
+# Build rule for target.
+drone_square_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 drone_square_node
+.PHONY : drone_square_node
+
+# fast build rule for target.
+drone_square_node/fast:
+	$(MAKE) -f drone/CMakeFiles/drone_square_node.dir/build.make drone/CMakeFiles/drone_square_node.dir/build
+.PHONY : drone_square_node/fast
+
+#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -856,6 +869,7 @@ help:
 	@echo "... mavros_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... drone_square_node"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_cpp"

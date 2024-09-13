@@ -42,10 +42,6 @@ int main(int argc, char **argv)
         rate.sleep();
     }
 
-
-
-
-
     geometry_msgs::PoseStamped pose;
     pose.pose.position.x = 1;
     pose.pose.position.y = 3;
@@ -57,11 +53,6 @@ int main(int argc, char **argv)
         ros::spinOnce();
         rate.sleep();
     }
-
-
-
-
-
 
 
     mavros_msgs::SetMode offb_set_mode;

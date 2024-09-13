@@ -423,6 +423,21 @@ std_msgs_generate_messages_cpp/fast:
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
+drone/CMakeFiles/drone_square_node.dir/rule:
+	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/drone_square_node.dir/rule
+.PHONY : drone/CMakeFiles/drone_square_node.dir/rule
+
+# Convenience name for target.
+drone_square_node: drone/CMakeFiles/drone_square_node.dir/rule
+
+.PHONY : drone_square_node
+
+# fast build rule for target.
+drone_square_node/fast:
+	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_square_node.dir/build.make drone/CMakeFiles/drone_square_node.dir/build
+.PHONY : drone_square_node/fast
+
+# Convenience name for target.
 drone/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
 	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 .PHONY : drone/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
@@ -809,6 +824,33 @@ src/base.cpp.s:
 	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_node.dir/build.make drone/CMakeFiles/drone_node.dir/src/base.cpp.s
 .PHONY : src/base.cpp.s
 
+src/square.o: src/square.cpp.o
+
+.PHONY : src/square.o
+
+# target to build an object file
+src/square.cpp.o:
+	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_square_node.dir/build.make drone/CMakeFiles/drone_square_node.dir/src/square.cpp.o
+.PHONY : src/square.cpp.o
+
+src/square.i: src/square.cpp.i
+
+.PHONY : src/square.i
+
+# target to preprocess a source file
+src/square.cpp.i:
+	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_square_node.dir/build.make drone/CMakeFiles/drone_square_node.dir/src/square.cpp.i
+.PHONY : src/square.cpp.i
+
+src/square.s: src/square.cpp.s
+
+.PHONY : src/square.s
+
+# target to generate assembly for a file
+src/square.cpp.s:
+	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_square_node.dir/build.make drone/CMakeFiles/drone_square_node.dir/src/square.cpp.s
+.PHONY : src/square.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -837,6 +879,7 @@ help:
 	@echo "... mavros_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... drone_square_node"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... test"
@@ -866,6 +909,9 @@ help:
 	@echo "... src/base.o"
 	@echo "... src/base.i"
 	@echo "... src/base.s"
+	@echo "... src/square.o"
+	@echo "... src/square.i"
+	@echo "... src/square.s"
 .PHONY : help
 
 
