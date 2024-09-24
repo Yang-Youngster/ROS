@@ -1,0 +1,2 @@
+px4_controller_pkg
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/luoyang/桌面/ROS/ros_px4_control/devel -DCMAKE_INSTALL_PREFIX=/home/luoyang/桌面/ROS/ros_px4_control/install -G Unix Makefiles
