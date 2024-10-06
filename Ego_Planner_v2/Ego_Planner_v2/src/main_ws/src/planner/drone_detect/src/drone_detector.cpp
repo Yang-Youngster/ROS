@@ -13,7 +13,7 @@ DroneDetector::DroneDetector(ros::NodeHandle& nodeHandle)
   // depth_img_sub_.reset(new message_filters::Subscriber<sensor_msgs::Image>(nh_, "depth", 50, ros::TransportHints().tcpNoDelay()));
   // colordepth_img_sub_.reset(new message_filters::Subscriber<sensor_msgs::Image>(nh_, "colordepth", 50));
   // camera_pos_sub_.reset(new message_filters::Subscriber<geometry_msgs::PoseStamped>(nh_, "camera_pose", 50));
-
+  
   my_odom_sub_ = nh_.subscribe("odometry", 100, &DroneDetector::rcvMyOdomCallback, this, ros::TransportHints().tcpNoDelay());
   depth_img_sub_ = nh_.subscribe("depth", 50, &DroneDetector::rcvDepthImgCallback, this, ros::TransportHints().tcpNoDelay());
   // sync_depth_color_img_pose_->registerCallback(boost::bind(&DroneDetector::rcvDepthColorCamPoseCallback, this, _1, _2, _3));
