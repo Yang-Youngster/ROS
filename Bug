@@ -1,0 +1,14 @@
+BUG HOw to solve?
+
+1.
+Q:
+RLException: [mavros_posix_stil.launch] is neither a launch file in package [px4] nor is [px4] a launch file name
+The traceback for the exception was written to the log file
+
+A:
+
+this command is right?
+
+or 
+
+source ./devel/setup.bash

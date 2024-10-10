@@ -5,6 +5,12 @@ ROS创建文件的步骤
 4: cd src
 5: catkin_create_pkg XXXX_PKG roscpp rospy std_msgs     #添加使用的库文件
 
+6.飞机控制添加的功能库文件
+
+
+
+
+
 //在 XXXX_PKG 下的SRC文件下 创建CPP源文件     script 创建python语言
 
 //C++配置文件

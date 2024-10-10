@@ -1,0 +1,53 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/cgy/Ego_Planner_v2/devel/include/**",
+        "/home/cgy/mavros_ws/devel/include/**",
+        "/home/cgy/Prometheus/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/cgy/Prometheus/Modules/planning/FastPlanner/bspline_opt/include/**",
+        "/home/cgy/Ego_Planner_v2/src/main_ws/src/planner/drone_detect/include/**",
+        "/home/cgy/Ego_Planner_v2/src/main_ws/src/planner/plan_manage/include/**",
+        "/home/cgy/mavros_ws/src/mavros/libmavconn/include/**",
+        "/home/cgy/mavros_ws/src/mavros/mavros/include/**",
+        "/home/cgy/mavros_ws/src/mavros/mavros_msgs/include/**",
+        "/home/cgy/Ego_Planner_v2/src/main_ws/src/uav_simulator/mockamap/include/**",
+        "/home/cgy/Ego_Planner_v2/src/main_ws/src/planner/path_searching/include/**",
+        "/home/cgy/Ego_Planner_v2/src/main_ws/src/planner/plan_env/include/**",
+        "/home/cgy/Ego_Planner_v2/src/main_ws/src/Utils/pose_utils/include/**",
+        "/home/cgy/Prometheus/Modules/control/include/**",
+        "/home/cgy/Prometheus/Simulator/gazebo_simulator/include/**",
+        "/home/cgy/Prometheus/Modules/planning/global_planning/include/**",
+        "/home/cgy/Prometheus/Modules/planning/hybrid_astar/include/**",
+        "/home/cgy/Prometheus/Modules/planning/local_planner/include/**",
+        "/home/cgy/Prometheus/Modules/mission/include/**",
+        "/home/cgy/Prometheus/Modules/planning/FastPlanner/plan_manage/include/**",
+        "/home/cgy/Prometheus/Modules/planning/Utils/pose_utils/include/**",
+        "/home/cgy/Prometheus/Modules/ground_station/include/**",
+        "/home/cgy/Prometheus/Modules/planning/swarm_planning/include/**",
+        "/home/cgy/Prometheus/Modules/ugv_control/include/**",
+        "/home/cgy/Ego_Planner_v2/src/main_ws/src/Utils/quadrotor_msgs/include/**",
+        "/home/cgy/Ego_Planner_v2/src/main_ws/src/Utils/selected_points_publisher/include/**",
+        "/home/cgy/Ego_Planner_v2/src/main_ws/src/uav_simulator/so3_control/include/**",
+        "/home/cgy/Ego_Planner_v2/src/main_ws/src/uav_simulator/so3_quadrotor_simulator/include/**",
+        "/home/cgy/Ego_Planner_v2/src/main_ws/src/planner/swarm_bridge/include/**",
+        "/home/cgy/mavros_ws/src/mavros/test_mavros/include/**",
+        "/home/cgy/Ego_Planner_v2/src/main_ws/src/planner/traj_opt/include/**",
+        "/home/cgy/Ego_Planner_v2/src/main_ws/src/planner/traj_utils/include/**",
+        "/home/cgy/Ego_Planner_v2/src/main_ws/src/Utils/uav_utils/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
