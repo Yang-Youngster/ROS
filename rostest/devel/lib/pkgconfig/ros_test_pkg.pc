@@ -1,4 +1,4 @@
-prefix=/home/luoyang/ROS/rostest/devel
+prefix=/home/luoyang/桌面/ROS/rostest/devel
 
 Name: ros_test_pkg
 Description: Description of ros_test_pkg

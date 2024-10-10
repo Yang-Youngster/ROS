@@ -1,8 +1,8 @@
-# Install script for directory: /home/luoyang/ROS/rostest/src/ros_test_pkg
+# Install script for directory: /home/luoyang/桌面/ROS/rostest/src/ros_test_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/luoyang/ROS/rostest/install")
+  set(CMAKE_INSTALL_PREFIX "/home/luoyang/桌面/ROS/rostest/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,18 +37,23 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/luoyang/ROS/rostest/build/ros_test_pkg/catkin_generated/installspace/ros_test_pkg.pc")
+# Set path to fallback-tool for dependency-resolution.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/luoyang/桌面/ROS/rostest/build/ros_test_pkg/catkin_generated/installspace/ros_test_pkg.pc")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_test_pkg/cmake" TYPE FILE FILES
-    "/home/luoyang/ROS/rostest/build/ros_test_pkg/catkin_generated/installspace/ros_test_pkgConfig.cmake"
-    "/home/luoyang/ROS/rostest/build/ros_test_pkg/catkin_generated/installspace/ros_test_pkgConfig-version.cmake"
+    "/home/luoyang/桌面/ROS/rostest/build/ros_test_pkg/catkin_generated/installspace/ros_test_pkgConfig.cmake"
+    "/home/luoyang/桌面/ROS/rostest/build/ros_test_pkg/catkin_generated/installspace/ros_test_pkgConfig-version.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_test_pkg" TYPE FILE FILES "/home/luoyang/ROS/rostest/src/ros_test_pkg/package.xml")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros_test_pkg" TYPE FILE FILES "/home/luoyang/桌面/ROS/rostest/src/ros_test_pkg/package.xml")
 endif()
 

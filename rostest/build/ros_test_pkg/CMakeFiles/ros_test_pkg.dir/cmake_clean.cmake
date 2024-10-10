@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/luoyang/ROS/rostest/devel/lib/ros_test_pkg/ros_test_pkg"
-  "/home/luoyang/ROS/rostest/devel/lib/ros_test_pkg/ros_test_pkg.pdb"
+  "/home/luoyang/桌面/ROS/rostest/devel/lib/ros_test_pkg/ros_test_pkg"
+  "/home/luoyang/桌面/ROS/rostest/devel/lib/ros_test_pkg/ros_test_pkg.pdb"
   "CMakeFiles/ros_test_pkg.dir/src/example.cpp.o"
+  "CMakeFiles/ros_test_pkg.dir/src/example.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
