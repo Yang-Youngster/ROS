@@ -1,4 +1,4 @@
-prefix=/home/luoyang/ROS/drone_circle/devel
+prefix=/home/luoyang/桌面/ROS/drone_circle/devel
 
 Name: drone
 Description: Description of drone

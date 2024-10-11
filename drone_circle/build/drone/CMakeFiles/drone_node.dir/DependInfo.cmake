@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/luoyang/ROS/drone_circle/src/drone/src/base.cpp" "/home/luoyang/ROS/drone_circle/build/drone/CMakeFiles/drone_node.dir/src/base.cpp.o"
+  "/home/luoyang/桌面/ROS/drone_circle/src/drone/src/base.cpp" "/home/luoyang/桌面/ROS/drone_circle/build/drone/CMakeFiles/drone_node.dir/src/base.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

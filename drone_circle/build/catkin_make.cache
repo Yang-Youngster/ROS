@@ -1,2 +1,2 @@
 drone
--DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/luoyang/ROS/drone_circle/devel -DCMAKE_INSTALL_PREFIX=/home/luoyang/ROS/drone_circle/install -G Unix Makefiles
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/luoyang/桌面/ROS/drone_circle/devel -DCMAKE_INSTALL_PREFIX=/home/luoyang/桌面/ROS/drone_circle/install -G Unix Makefiles

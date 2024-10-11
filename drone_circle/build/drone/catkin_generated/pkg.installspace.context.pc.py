@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "drone"
-PROJECT_SPACE_DIR = "/home/luoyang/ROS/drone_circle/install"
+PROJECT_SPACE_DIR = "/home/luoyang/桌面/ROS/drone_circle/install"
 PROJECT_VERSION = "0.0.0"

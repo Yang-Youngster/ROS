@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/luoyang/ROS/drone_circle/devel/lib/drone/drone_square_node"
-  "/home/luoyang/ROS/drone_circle/devel/lib/drone/drone_square_node.pdb"
+  "/home/luoyang/桌面/ROS/drone_circle/devel/lib/drone/drone_square_node"
+  "/home/luoyang/桌面/ROS/drone_circle/devel/lib/drone/drone_square_node.pdb"
   "CMakeFiles/drone_square_node.dir/src/square.cpp.o"
 )
 

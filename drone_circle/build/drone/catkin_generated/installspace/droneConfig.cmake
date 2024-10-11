@@ -67,14 +67,14 @@ set(drone_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(drone_SOURCE_PREFIX /home/luoyang/ROS/drone_circle/src/drone)
-  set(drone_DEVEL_PREFIX /home/luoyang/ROS/drone_circle/devel)
+  set(drone_SOURCE_PREFIX /home/luoyang/桌面/ROS/drone_circle/src/drone)
+  set(drone_DEVEL_PREFIX /home/luoyang/桌面/ROS/drone_circle/devel)
   set(drone_INSTALL_PREFIX "")
   set(drone_PREFIX ${drone_DEVEL_PREFIX})
 else()
   set(drone_SOURCE_PREFIX "")
   set(drone_DEVEL_PREFIX "")
-  set(drone_INSTALL_PREFIX /home/luoyang/ROS/drone_circle/install)
+  set(drone_INSTALL_PREFIX /home/luoyang/桌面/ROS/drone_circle/install)
   set(drone_PREFIX ${drone_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/luoyang/ROS/drone_circle/install/lib;/home/luoyang/ROS/drone_circle/devel/lib;/home/luoyang/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/luoyang/桌面/ROS/drone_circle/install/lib;/home/luoyang/桌面/ROS/drone_circle/devel/lib;/home/luoyang/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD='/home/luoyang/桌面/ROS/rostest/build'
-export ROS_PACKAGE_PATH='/home/luoyang/ROS/rostest/src:/home/luoyang/桌面/ROS/rostest/src:/home/luoyang/catkin_ws/src:/opt/ros/noetic/share'

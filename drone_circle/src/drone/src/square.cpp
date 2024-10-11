@@ -78,7 +78,7 @@ int main(int argc, char **argv)
         if((flag == 1)  && (ros::Time::now() - last_request > ros::Duration(5.0)))
 		{ 
 			ROS_INFO("position1(0 , 0,  5)");
-                pose.pose.position.x = 0;
+                        pose.pose.position.x = 0;
     			pose.pose.position.y = 0;
     			pose.pose.position.z = 5;
 			last_request = ros::Time::now();

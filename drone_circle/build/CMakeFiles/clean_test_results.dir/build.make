@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luoyang/ROS/drone_circle/src
+CMAKE_SOURCE_DIR = /home/luoyang/桌面/ROS/drone_circle/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luoyang/ROS/drone_circle/build
+CMAKE_BINARY_DIR = /home/luoyang/桌面/ROS/drone_circle/build
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/luoyang/ROS/drone_circle/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/luoyang/ROS/drone_circle/build/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/luoyang/桌面/ROS/drone_circle/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/luoyang/ROS/drone_circle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luoyang/ROS/drone_circle/src /home/luoyang/ROS/drone_circle/src /home/luoyang/ROS/drone_circle/build /home/luoyang/ROS/drone_circle/build /home/luoyang/ROS/drone_circle/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luoyang/桌面/ROS/drone_circle/src /home/luoyang/桌面/ROS/drone_circle/src /home/luoyang/桌面/ROS/drone_circle/build /home/luoyang/桌面/ROS/drone_circle/build /home/luoyang/桌面/ROS/drone_circle/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

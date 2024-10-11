@@ -1,8 +1,8 @@
-# Install script for directory: /home/luoyang/ROS/drone_circle/src/drone
+# Install script for directory: /home/luoyang/桌面/ROS/drone_circle/src/drone
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/luoyang/ROS/drone_circle/install")
+  set(CMAKE_INSTALL_PREFIX "/home/luoyang/桌面/ROS/drone_circle/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/luoyang/ROS/drone_circle/build/drone/catkin_generated/installspace/drone.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/luoyang/桌面/ROS/drone_circle/build/drone/catkin_generated/installspace/drone.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone/cmake" TYPE FILE FILES
-    "/home/luoyang/ROS/drone_circle/build/drone/catkin_generated/installspace/droneConfig.cmake"
-    "/home/luoyang/ROS/drone_circle/build/drone/catkin_generated/installspace/droneConfig-version.cmake"
+    "/home/luoyang/桌面/ROS/drone_circle/build/drone/catkin_generated/installspace/droneConfig.cmake"
+    "/home/luoyang/桌面/ROS/drone_circle/build/drone/catkin_generated/installspace/droneConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone" TYPE FILE FILES "/home/luoyang/ROS/drone_circle/src/drone/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/drone" TYPE FILE FILES "/home/luoyang/桌面/ROS/drone_circle/src/drone/package.xml")
 endif()
 

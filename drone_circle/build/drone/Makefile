@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luoyang/ROS/drone_circle/src
+CMAKE_SOURCE_DIR = /home/luoyang/桌面/ROS/drone_circle/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luoyang/ROS/drone_circle/build
+CMAKE_BINARY_DIR = /home/luoyang/桌面/ROS/drone_circle/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/luoyang/ROS/drone_circle/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luoyang/ROS/drone_circle/build/CMakeFiles /home/luoyang/ROS/drone_circle/build/drone/CMakeFiles/progress.marks
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luoyang/ROS/drone_circle/build/CMakeFiles 0
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luoyang/桌面/ROS/drone_circle/build/CMakeFiles /home/luoyang/桌面/ROS/drone_circle/build/drone/CMakeFiles/progress.marks
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luoyang/桌面/ROS/drone_circle/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/clean
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/preinstall
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/preinstall
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/luoyang/ROS/drone_circle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 drone/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : drone/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ rosgraph_msgs_generate_messages_py: drone/CMakeFiles/rosgraph_msgs_generate_mess
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make drone/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make drone/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 drone/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : drone/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ rosgraph_msgs_generate_messages_nodejs: drone/CMakeFiles/rosgraph_msgs_generate_
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make drone/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make drone/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 drone/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : drone/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ rosgraph_msgs_generate_messages_lisp: drone/CMakeFiles/rosgraph_msgs_generate_me
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make drone/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make drone/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 drone/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : drone/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ rosgraph_msgs_generate_messages_eus: drone/CMakeFiles/rosgraph_msgs_generate_mes
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make drone/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make drone/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 drone/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : drone/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ roscpp_generate_messages_py: drone/CMakeFiles/roscpp_generate_messages_py.dir/ru
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/roscpp_generate_messages_py.dir/build.make drone/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/roscpp_generate_messages_py.dir/build.make drone/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 drone/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : drone/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ roscpp_generate_messages_nodejs: drone/CMakeFiles/roscpp_generate_messages_nodej
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make drone/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make drone/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 drone/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : drone/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ roscpp_generate_messages_lisp: drone/CMakeFiles/roscpp_generate_messages_lisp.di
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make drone/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make drone/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 drone/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : drone/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ roscpp_generate_messages_eus: drone/CMakeFiles/roscpp_generate_messages_eus.dir/
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/roscpp_generate_messages_eus.dir/build.make drone/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/roscpp_generate_messages_eus.dir/build.make drone/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 drone/CMakeFiles/mavros_msgs_generate_messages_eus.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/mavros_msgs_generate_messages_eus.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/mavros_msgs_generate_messages_eus.dir/rule
 .PHONY : drone/CMakeFiles/mavros_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ mavros_msgs_generate_messages_eus: drone/CMakeFiles/mavros_msgs_generate_message
 
 # fast build rule for target.
 mavros_msgs_generate_messages_eus/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/mavros_msgs_generate_messages_eus.dir/build.make drone/CMakeFiles/mavros_msgs_generate_messages_eus.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/mavros_msgs_generate_messages_eus.dir/build.make drone/CMakeFiles/mavros_msgs_generate_messages_eus.dir/build
 .PHONY : mavros_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 drone/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/rule
 .PHONY : drone/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ mavros_msgs_generate_messages_cpp: drone/CMakeFiles/mavros_msgs_generate_message
 
 # fast build rule for target.
 mavros_msgs_generate_messages_cpp/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/build.make drone/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/build.make drone/CMakeFiles/mavros_msgs_generate_messages_cpp.dir/build
 .PHONY : mavros_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 drone/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/rule
 .PHONY : drone/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ mavros_msgs_generate_messages_lisp: drone/CMakeFiles/mavros_msgs_generate_messag
 
 # fast build rule for target.
 mavros_msgs_generate_messages_lisp/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/build.make drone/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/build.make drone/CMakeFiles/mavros_msgs_generate_messages_lisp.dir/build
 .PHONY : mavros_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 drone/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/rule
 .PHONY : drone/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ uuid_msgs_generate_messages_nodejs: drone/CMakeFiles/uuid_msgs_generate_messages
 
 # fast build rule for target.
 uuid_msgs_generate_messages_nodejs/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/build.make drone/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/build.make drone/CMakeFiles/uuid_msgs_generate_messages_nodejs.dir/build
 .PHONY : uuid_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 drone/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : drone/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ std_msgs_generate_messages_py: drone/CMakeFiles/std_msgs_generate_messages_py.di
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/std_msgs_generate_messages_py.dir/build.make drone/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/std_msgs_generate_messages_py.dir/build.make drone/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 drone/CMakeFiles/drone_node.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/drone_node.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/drone_node.dir/rule
 .PHONY : drone/CMakeFiles/drone_node.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ drone_node: drone/CMakeFiles/drone_node.dir/rule
 
 # fast build rule for target.
 drone_node/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_node.dir/build.make drone/CMakeFiles/drone_node.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_node.dir/build.make drone/CMakeFiles/drone_node.dir/build
 .PHONY : drone_node/fast
 
 # Convenience name for target.
 drone/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/rule
 .PHONY : drone/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ mavros_msgs_generate_messages_nodejs: drone/CMakeFiles/mavros_msgs_generate_mess
 
 # fast build rule for target.
 mavros_msgs_generate_messages_nodejs/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/build.make drone/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/build.make drone/CMakeFiles/mavros_msgs_generate_messages_nodejs.dir/build
 .PHONY : mavros_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 drone/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 .PHONY : drone/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -404,12 +404,12 @@ geometry_msgs_generate_messages_lisp: drone/CMakeFiles/geometry_msgs_generate_me
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make drone/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make drone/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 drone/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : drone/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -419,12 +419,12 @@ std_msgs_generate_messages_cpp: drone/CMakeFiles/std_msgs_generate_messages_cpp.
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make drone/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make drone/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 drone/CMakeFiles/drone_square_node.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/drone_square_node.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/drone_square_node.dir/rule
 .PHONY : drone/CMakeFiles/drone_square_node.dir/rule
 
 # Convenience name for target.
@@ -434,12 +434,12 @@ drone_square_node: drone/CMakeFiles/drone_square_node.dir/rule
 
 # fast build rule for target.
 drone_square_node/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_square_node.dir/build.make drone/CMakeFiles/drone_square_node.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_square_node.dir/build.make drone/CMakeFiles/drone_square_node.dir/build
 .PHONY : drone_square_node/fast
 
 # Convenience name for target.
 drone/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 .PHONY : drone/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -449,12 +449,12 @@ geometry_msgs_generate_messages_nodejs: drone/CMakeFiles/geometry_msgs_generate_
 
 # fast build rule for target.
 geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make drone/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make drone/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 drone/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : drone/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -464,12 +464,12 @@ geometry_msgs_generate_messages_cpp: drone/CMakeFiles/geometry_msgs_generate_mes
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make drone/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make drone/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 drone/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : drone/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -479,12 +479,12 @@ rosgraph_msgs_generate_messages_cpp: drone/CMakeFiles/rosgraph_msgs_generate_mes
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make drone/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make drone/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 drone/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/rule
 .PHONY : drone/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -494,12 +494,12 @@ uuid_msgs_generate_messages_lisp: drone/CMakeFiles/uuid_msgs_generate_messages_l
 
 # fast build rule for target.
 uuid_msgs_generate_messages_lisp/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build.make drone/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build.make drone/CMakeFiles/uuid_msgs_generate_messages_lisp.dir/build
 .PHONY : uuid_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 drone/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 .PHONY : drone/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -509,12 +509,12 @@ sensor_msgs_generate_messages_py: drone/CMakeFiles/sensor_msgs_generate_messages
 
 # fast build rule for target.
 sensor_msgs_generate_messages_py/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make drone/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make drone/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 drone/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : drone/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -524,12 +524,12 @@ geometry_msgs_generate_messages_py: drone/CMakeFiles/geometry_msgs_generate_mess
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make drone/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make drone/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 drone/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 .PHONY : drone/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -539,12 +539,12 @@ sensor_msgs_generate_messages_nodejs: drone/CMakeFiles/sensor_msgs_generate_mess
 
 # fast build rule for target.
 sensor_msgs_generate_messages_nodejs/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make drone/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make drone/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 .PHONY : sensor_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 drone/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : drone/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -554,12 +554,12 @@ std_msgs_generate_messages_nodejs: drone/CMakeFiles/std_msgs_generate_messages_n
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make drone/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make drone/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 drone/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 .PHONY : drone/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -569,12 +569,12 @@ geometry_msgs_generate_messages_eus: drone/CMakeFiles/geometry_msgs_generate_mes
 
 # fast build rule for target.
 geometry_msgs_generate_messages_eus/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make drone/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make drone/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 drone/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 .PHONY : drone/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -584,12 +584,12 @@ std_msgs_generate_messages_eus: drone/CMakeFiles/std_msgs_generate_messages_eus.
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make drone/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make drone/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 drone/CMakeFiles/mavros_msgs_generate_messages_py.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/mavros_msgs_generate_messages_py.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/mavros_msgs_generate_messages_py.dir/rule
 .PHONY : drone/CMakeFiles/mavros_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -599,12 +599,12 @@ mavros_msgs_generate_messages_py: drone/CMakeFiles/mavros_msgs_generate_messages
 
 # fast build rule for target.
 mavros_msgs_generate_messages_py/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/mavros_msgs_generate_messages_py.dir/build.make drone/CMakeFiles/mavros_msgs_generate_messages_py.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/mavros_msgs_generate_messages_py.dir/build.make drone/CMakeFiles/mavros_msgs_generate_messages_py.dir/build
 .PHONY : mavros_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 drone/CMakeFiles/uuid_msgs_generate_messages_eus.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/uuid_msgs_generate_messages_eus.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/uuid_msgs_generate_messages_eus.dir/rule
 .PHONY : drone/CMakeFiles/uuid_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -614,12 +614,12 @@ uuid_msgs_generate_messages_eus: drone/CMakeFiles/uuid_msgs_generate_messages_eu
 
 # fast build rule for target.
 uuid_msgs_generate_messages_eus/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/uuid_msgs_generate_messages_eus.dir/build.make drone/CMakeFiles/uuid_msgs_generate_messages_eus.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/uuid_msgs_generate_messages_eus.dir/build.make drone/CMakeFiles/uuid_msgs_generate_messages_eus.dir/build
 .PHONY : uuid_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 drone/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/rule
 .PHONY : drone/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -629,12 +629,12 @@ geographic_msgs_generate_messages_cpp: drone/CMakeFiles/geographic_msgs_generate
 
 # fast build rule for target.
 geographic_msgs_generate_messages_cpp/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/build.make drone/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/build.make drone/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/build
 .PHONY : geographic_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 drone/CMakeFiles/geographic_msgs_generate_messages_eus.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geographic_msgs_generate_messages_eus.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geographic_msgs_generate_messages_eus.dir/rule
 .PHONY : drone/CMakeFiles/geographic_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -644,12 +644,12 @@ geographic_msgs_generate_messages_eus: drone/CMakeFiles/geographic_msgs_generate
 
 # fast build rule for target.
 geographic_msgs_generate_messages_eus/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geographic_msgs_generate_messages_eus.dir/build.make drone/CMakeFiles/geographic_msgs_generate_messages_eus.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geographic_msgs_generate_messages_eus.dir/build.make drone/CMakeFiles/geographic_msgs_generate_messages_eus.dir/build
 .PHONY : geographic_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 drone/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 .PHONY : drone/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -659,12 +659,12 @@ sensor_msgs_generate_messages_cpp: drone/CMakeFiles/sensor_msgs_generate_message
 
 # fast build rule for target.
 sensor_msgs_generate_messages_cpp/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make drone/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make drone/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 drone/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/rule
 .PHONY : drone/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -674,12 +674,12 @@ geographic_msgs_generate_messages_lisp: drone/CMakeFiles/geographic_msgs_generat
 
 # fast build rule for target.
 geographic_msgs_generate_messages_lisp/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build.make drone/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build.make drone/CMakeFiles/geographic_msgs_generate_messages_lisp.dir/build
 .PHONY : geographic_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 drone/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/rule
 .PHONY : drone/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -689,12 +689,12 @@ geographic_msgs_generate_messages_nodejs: drone/CMakeFiles/geographic_msgs_gener
 
 # fast build rule for target.
 geographic_msgs_generate_messages_nodejs/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/build.make drone/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/build.make drone/CMakeFiles/geographic_msgs_generate_messages_nodejs.dir/build
 .PHONY : geographic_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 drone/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 .PHONY : drone/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -704,12 +704,12 @@ sensor_msgs_generate_messages_lisp: drone/CMakeFiles/sensor_msgs_generate_messag
 
 # fast build rule for target.
 sensor_msgs_generate_messages_lisp/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make drone/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make drone/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 .PHONY : sensor_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 drone/CMakeFiles/geographic_msgs_generate_messages_py.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geographic_msgs_generate_messages_py.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/geographic_msgs_generate_messages_py.dir/rule
 .PHONY : drone/CMakeFiles/geographic_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -719,12 +719,12 @@ geographic_msgs_generate_messages_py: drone/CMakeFiles/geographic_msgs_generate_
 
 # fast build rule for target.
 geographic_msgs_generate_messages_py/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geographic_msgs_generate_messages_py.dir/build.make drone/CMakeFiles/geographic_msgs_generate_messages_py.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/geographic_msgs_generate_messages_py.dir/build.make drone/CMakeFiles/geographic_msgs_generate_messages_py.dir/build
 .PHONY : geographic_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 drone/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : drone/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -734,12 +734,12 @@ std_msgs_generate_messages_lisp: drone/CMakeFiles/std_msgs_generate_messages_lis
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make drone/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make drone/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 drone/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/rule
 .PHONY : drone/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -749,12 +749,12 @@ uuid_msgs_generate_messages_cpp: drone/CMakeFiles/uuid_msgs_generate_messages_cp
 
 # fast build rule for target.
 uuid_msgs_generate_messages_cpp/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build.make drone/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build.make drone/CMakeFiles/uuid_msgs_generate_messages_cpp.dir/build
 .PHONY : uuid_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 drone/CMakeFiles/uuid_msgs_generate_messages_py.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/uuid_msgs_generate_messages_py.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/uuid_msgs_generate_messages_py.dir/rule
 .PHONY : drone/CMakeFiles/uuid_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -764,12 +764,12 @@ uuid_msgs_generate_messages_py: drone/CMakeFiles/uuid_msgs_generate_messages_py.
 
 # fast build rule for target.
 uuid_msgs_generate_messages_py/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/uuid_msgs_generate_messages_py.dir/build.make drone/CMakeFiles/uuid_msgs_generate_messages_py.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/uuid_msgs_generate_messages_py.dir/build.make drone/CMakeFiles/uuid_msgs_generate_messages_py.dir/build
 .PHONY : uuid_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 drone/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : drone/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -779,12 +779,12 @@ roscpp_generate_messages_cpp: drone/CMakeFiles/roscpp_generate_messages_cpp.dir/
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make drone/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make drone/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 drone/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f CMakeFiles/Makefile2 drone/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 .PHONY : drone/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -794,7 +794,7 @@ sensor_msgs_generate_messages_eus: drone/CMakeFiles/sensor_msgs_generate_message
 
 # fast build rule for target.
 sensor_msgs_generate_messages_eus/fast:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make drone/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make drone/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
 .PHONY : sensor_msgs_generate_messages_eus/fast
 
 src/base.o: src/base.cpp.o
@@ -803,7 +803,7 @@ src/base.o: src/base.cpp.o
 
 # target to build an object file
 src/base.cpp.o:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_node.dir/build.make drone/CMakeFiles/drone_node.dir/src/base.cpp.o
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_node.dir/build.make drone/CMakeFiles/drone_node.dir/src/base.cpp.o
 .PHONY : src/base.cpp.o
 
 src/base.i: src/base.cpp.i
@@ -812,7 +812,7 @@ src/base.i: src/base.cpp.i
 
 # target to preprocess a source file
 src/base.cpp.i:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_node.dir/build.make drone/CMakeFiles/drone_node.dir/src/base.cpp.i
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_node.dir/build.make drone/CMakeFiles/drone_node.dir/src/base.cpp.i
 .PHONY : src/base.cpp.i
 
 src/base.s: src/base.cpp.s
@@ -821,7 +821,7 @@ src/base.s: src/base.cpp.s
 
 # target to generate assembly for a file
 src/base.cpp.s:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_node.dir/build.make drone/CMakeFiles/drone_node.dir/src/base.cpp.s
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_node.dir/build.make drone/CMakeFiles/drone_node.dir/src/base.cpp.s
 .PHONY : src/base.cpp.s
 
 src/square.o: src/square.cpp.o
@@ -830,7 +830,7 @@ src/square.o: src/square.cpp.o
 
 # target to build an object file
 src/square.cpp.o:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_square_node.dir/build.make drone/CMakeFiles/drone_square_node.dir/src/square.cpp.o
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_square_node.dir/build.make drone/CMakeFiles/drone_square_node.dir/src/square.cpp.o
 .PHONY : src/square.cpp.o
 
 src/square.i: src/square.cpp.i
@@ -839,7 +839,7 @@ src/square.i: src/square.cpp.i
 
 # target to preprocess a source file
 src/square.cpp.i:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_square_node.dir/build.make drone/CMakeFiles/drone_square_node.dir/src/square.cpp.i
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_square_node.dir/build.make drone/CMakeFiles/drone_square_node.dir/src/square.cpp.i
 .PHONY : src/square.cpp.i
 
 src/square.s: src/square.cpp.s
@@ -848,7 +848,7 @@ src/square.s: src/square.cpp.s
 
 # target to generate assembly for a file
 src/square.cpp.s:
-	cd /home/luoyang/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_square_node.dir/build.make drone/CMakeFiles/drone_square_node.dir/src/square.cpp.s
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(MAKE) -f drone/CMakeFiles/drone_square_node.dir/build.make drone/CMakeFiles/drone_square_node.dir/src/square.cpp.s
 .PHONY : src/square.cpp.s
 
 # Help Target
@@ -923,6 +923,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/luoyang/ROS/drone_circle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

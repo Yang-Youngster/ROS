@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luoyang/ROS/drone_circle/src
+CMAKE_SOURCE_DIR = /home/luoyang/桌面/ROS/drone_circle/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luoyang/ROS/drone_circle/build
+CMAKE_BINARY_DIR = /home/luoyang/桌面/ROS/drone_circle/build
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/luoyang/ROS/drone_circle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luoyang/ROS/drone_circle/src /home/luoyang/ROS/drone_circle/src /home/luoyang/ROS/drone_circle/build /home/luoyang/ROS/drone_circle/build /home/luoyang/ROS/drone_circle/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luoyang/桌面/ROS/drone_circle/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luoyang/桌面/ROS/drone_circle/src /home/luoyang/桌面/ROS/drone_circle/src /home/luoyang/桌面/ROS/drone_circle/build /home/luoyang/桌面/ROS/drone_circle/build /home/luoyang/桌面/ROS/drone_circle/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

@@ -8,8 +8,10 @@
             "includePath": [
                 "/opt/ros/noetic/include/**",
                 "/home/luoyang/catkin_ws/src/learning_communication/include/**",
+                
                 "/home/luoyang/ROS/rostest/src/ros_test_pkg/include/**",
                 "/home/luoyang/ROS/rostest/src/ros_test_pkg/src/**",
+                "/home/luoyang/ROS/rostest/src/ros_test_pkg/src/include/**",
                 "/usr/include/**",
                 "/opt/ros/noetic/include"
             ],
