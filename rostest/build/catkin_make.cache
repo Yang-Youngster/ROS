@@ -1,2 +1,0 @@
-ros_test_pkg
--DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/luoyang/桌面/ROS/rostest/devel -DCMAKE_INSTALL_PREFIX=/home/luoyang/桌面/ROS/rostest/install -G Unix Makefiles

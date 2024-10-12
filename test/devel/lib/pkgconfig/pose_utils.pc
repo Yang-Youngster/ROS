@@ -1,0 +1,8 @@
+prefix=/home/luoyang/桌面/ROS/test/devel
+
+Name: pose_utils
+Description: Description of pose_utils
+Version: 0.0.0
+Cflags: -I/home/luoyang/桌面/ROS/test/src/Fast-Planner/uav_simulator/Utils/pose_utils/include
+Libs: -L${prefix}/lib -lpose_utils
+Requires: 
