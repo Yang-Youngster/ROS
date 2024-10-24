@@ -72,9 +72,6 @@ int main(int argc, char **argv)
         ros::spinOnce();
         rate.sleep();
     }
-
-
-
     while(state--) {
         last_request = ros::Time::now();
         while(ros::ok()) {
@@ -100,7 +97,6 @@ int main(int argc, char **argv)
            ros::spinOnce();
            rate.sleep();
        }
-
  last_request = ros::Time::now();
         while(ros::ok()) {
             //5秒时间
@@ -128,13 +124,9 @@ int main(int argc, char **argv)
 
        ROS_INFO_STREAM("state="<<state);
     }
-
     offb_set_mode.request.custom_mode = "AUTO.LAND";
-
-
     //offb_set_mode.response.mode_sent
     //检查设定模式是否接收成功
-
     if( set_mode_client.call(offb_set_mode) && offb_set_mode.response.mode_sent)
     {
         ROS_INFO("AUTO.LAND enabled");
@@ -144,3 +136,4 @@ int main(int argc, char **argv)
     return 0;
 }
 
+    

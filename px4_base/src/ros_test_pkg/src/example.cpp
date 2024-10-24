@@ -9,14 +9,10 @@
 #include <mavros_msgs/CommandBool.h>
 #include <mavros_msgs/SetMode.h>
 #include <mavros_msgs/State.h>
-
-
 mavros_msgs::State current_state; 
 void state_cb(const mavros_msgs::State::ConstPtr& msg){
     current_state = *msg;   // 无人机当前状态
 };
-
-
 int main(int argc, char **argv)
 {
     ros::init(argc, argv, "offb_node");
@@ -40,15 +36,11 @@ int main(int argc, char **argv)
         rate.sleep();
         ROS_INFO("Waiting for FCU connection...");
     }
-
-  
  geometry_msgs::PoseStamped pose;
 
     pose.pose.position.x = 0;
     pose.pose.position.y = 0;
     pose.pose.position.z = 1;
-
-
 
     //send a few setpoints before starting
     for(int i = 100; ros::ok() && i > 0; --i){
@@ -57,16 +49,12 @@ int main(int argc, char **argv)
         rate.sleep();
         ROS_INFO("Publishing setpoints...");
     }
-
     mavros_msgs::SetMode offb_set_mode;
     offb_set_mode.request.custom_mode = "OFFBOARD";
-
     // 无人机解锁 --自身检查
     mavros_msgs::CommandBool arm_cmd;
     arm_cmd.request.value = true;
-
     ros::Time last_request = ros::Time::now();
-
     while(ros::ok()){
         if( current_state.mode != "OFFBOARD" &&
             (ros::Time::now() - last_request > ros::Duration(5.0))){
@@ -87,9 +75,7 @@ int main(int argc, char **argv)
                 last_request = ros::Time::now();
             }
         }
-
         local_pos_pub.publish(pose); // 发送目标点位置
-
         ros::spinOnce();   // 回调函数
         rate.sleep();  
     }

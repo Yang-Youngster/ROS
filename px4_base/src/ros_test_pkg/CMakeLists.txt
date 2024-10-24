@@ -130,8 +130,11 @@ include_directories(
 
 add_executable(ros_test_pkg src/example.cpp)
 add_executable(ros_run src/run.cpp)
+#测试案例
+add_executable(real_test_pkg src/real_test.cpp)
 
 
+target_link_libraries(real_test_pkg ${catkin_LIBRARIES})
 target_link_libraries(ros_test_pkg ${catkin_LIBRARIES})
 target_link_libraries(ros_run ${catkin_LIBRARIES})
 
