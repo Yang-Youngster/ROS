@@ -1,0 +1,8 @@
+prefix=/home/luoyang/文档/GitHub/ROS/px4_base/devel
+
+Name: base
+Description: Description of base
+Version: 0.0.0
+Cflags: -I/home/luoyang/文档/GitHub/ROS/px4_base/src/base/include
+Libs: -L${prefix}/lib -lbase
+Requires: roscpp

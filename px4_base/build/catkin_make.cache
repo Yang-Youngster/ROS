@@ -1,0 +1,2 @@
+base:ros_test_pkg
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/luoyang/文档/GitHub/ROS/px4_base/devel -DCMAKE_INSTALL_PREFIX=/home/luoyang/文档/GitHub/ROS/px4_base/install -G Unix Makefiles

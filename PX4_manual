@@ -1,0 +1,27 @@
+PX4 HOw to launch
+
+roscore 
+
+//启动仿真环境
+roslaunch px4 mavros_posix_sitl.launch
+
+//运行实机节点
+
+//机载电脑在和飞控进行通信连接
+  # 给端口加权限（可以不加
+    sudo chmod 777 /dev/ttyUSB0
+  # 启动launch文件 后面的fcu_url很重要！ 
+  # fcu_url:="[设备名]:[波特率]"   需要对应修改
+  # 使用ch340芯片的 USB转TTL 设置波特率 115200
+    roslaunch mavros px4.launch fcu_url:="/dev/ttyUSB0:115200"
+  # 使用cp2102芯片的 UBS转TTL 设置波特率 921600
+    roslaunch mavros px4.launch fcu_url:="/dev/ttyUSB0:921600"
+  # 如果不想每次都加一个 fcu_url 可以编辑一下 px4.launch文件
+    cd /opt/ros/melodic/share/mavros/launch
+    sudo gedit px4.launch
+  # 对应修改之后，就可以不用加 fcu_url了
+    roslaunch mavros px4.launch
+//运行自己的节点
+rosrun own workspace node
+
+

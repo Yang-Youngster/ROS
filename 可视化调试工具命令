@@ -1,0 +1,22 @@
+1.rqt系列调试工具
+  rosrun rqt_plot rqt_plot                //展示发布在topic上的数据变化图
+  rosrun rqt_graph rqt_graph              //画出ndoe图
+  rosrun rqt_console rqt_console          //属于ROS日志框架（logging framework）的一部分
+  rosrun rqt_reconfigure rqt_reconfigure  //动态配置工具
+  rosrun rqt_tf_tree rqt_tf_tree          //tf树
+  
+  查看相机的图像
+  
+
+
+2.rosbag 
+  记录
+  rosbag record <topic1> <topic2>
+  rosbag record -o <own_define_rosbag_name> <topic1> <topic2> //指定存储路径
+  rosbag record -a    //记录所有发布的主题
+  回放
+  rosbag play <bag_file>
+  
+  
+  //可视化工具
+  rosrun plotjuggler plotjuggler

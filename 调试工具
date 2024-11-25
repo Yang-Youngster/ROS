@@ -1,0 +1,23 @@
+调试工具
+rosbag ----录制与回放话题
+
+录制时，rosbag是一个订阅者，可以订阅到的话题消息写入磁盘文件。
+回放时，rosbag是一个发布者，可以读取磁盘文件，发布文件中的话题消息。
+
+
+录制所有话题：rosbag record -a -O 目标文件名
+录制特定话题：rosbag record -O 目标文件名 /uav1/pose /uav0/pose
+
+回放文件：rosbag play 目标文件名
+控制回放速度，以2倍速为例：rosbag play -r 2 目标文件名
+指定开始时间，以第10s开始为例：rosbag play -s 10 目标文件名
+回放特定话题：rosbag play 目标文件名 /uav1/pose
+
+同时自身的bag包在实际应用中也能够接受读取到。
+
+//绘制图线工具
+
+sudo apt install ros-${ROS_DISTRO}-plotjuggler-ros
+rosrun plotjuggler plotjuggler
+
+

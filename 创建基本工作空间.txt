@@ -1,0 +1,39 @@
+ROS创建文件的步骤
+1：mkdir -p XXXX/src                                    #创建基本文件
+2: cd XXXX                          
+3: catkin_make                                          #加载基本配置文件
+4: cd src
+5: catkin_create_pkg XXXX_PKG roscpp rospy std_msgs     #添加使用的库文件
+
+6.飞机控制添加的功能库文件
+
+//在 XXXX_PKG 下的SRC文件下 创建CPP源文件     script 创建python语言
+
+//C++配置文件
+//##add_executable(${PROJECT_NAME}_node src/demo_pkg_node.cpp) 
+配置文件 1.
+ example: ##add_executable(PROJECT_NAME src/自定义的Cpp文件名.cpp) 
+配置文件 2.
+ target_link_libraries(PROJECT_NAME ${catkin_LIBRARIES})
+
+//python配置文件
+# catkin_install_python(PROGRAMS
+#   scripts/my_python_script
+#   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+# )
+example:
+ catkin_install_python(PROGRAMS ##pythons/python3.py## DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+
+
+6:重新编译文件
+   cd 空间名  catkin_make  OR  快捷键 ctrl+shift+B
+7:运行： 
+   1.roscore  
+   2.source ./devel/setup.bash
+   3.rosrun XXXX_PKG 定义的节点别名(Python 语言 和 C++语言 同样)
+
+
+//提示配置文件
+#针对显示字符的乱码情形的显示
+
+setlocale(LC_ALL,"");

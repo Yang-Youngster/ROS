@@ -1,0 +1,8 @@
+prefix=/home/luoyang/文档/GitHub/ROS/px4_base/install
+
+Name: base
+Description: Description of base
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lbase
+Requires: roscpp
