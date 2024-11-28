@@ -1,0 +1,8 @@
+ego-planner-swarm/src/uav_simulator/so3_control
+/home/luoyang/文档/GitHub/ROS/test_path/devel/.private/so3_control/cmake.lock /home/luoyang/文档/GitHub/ROS/test_path/devel/./cmake.lock
+/home/luoyang/文档/GitHub/ROS/test_path/devel/.private/so3_control/share/so3_control/cmake/so3_controlConfig-version.cmake /home/luoyang/文档/GitHub/ROS/test_path/devel/share/so3_control/cmake/so3_controlConfig-version.cmake
+/home/luoyang/文档/GitHub/ROS/test_path/devel/.private/so3_control/share/so3_control/cmake/so3_controlConfig.cmake /home/luoyang/文档/GitHub/ROS/test_path/devel/share/so3_control/cmake/so3_controlConfig.cmake
+/home/luoyang/文档/GitHub/ROS/test_path/devel/.private/so3_control/lib/libSO3Control.so /home/luoyang/文档/GitHub/ROS/test_path/devel/lib/libSO3Control.so
+/home/luoyang/文档/GitHub/ROS/test_path/devel/.private/so3_control/lib/libso3_control_nodelet.so /home/luoyang/文档/GitHub/ROS/test_path/devel/lib/libso3_control_nodelet.so
+/home/luoyang/文档/GitHub/ROS/test_path/devel/.private/so3_control/lib/so3_control/control_example /home/luoyang/文档/GitHub/ROS/test_path/devel/lib/so3_control/control_example
+/home/luoyang/文档/GitHub/ROS/test_path/devel/.private/so3_control/lib/pkgconfig/so3_control.pc /home/luoyang/文档/GitHub/ROS/test_path/devel/lib/pkgconfig/so3_control.pc

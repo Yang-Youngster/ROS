@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/luoyang/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/luoyang/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/**",
+        "/home/luoyang/catkin_ws/src/gazebo_ros_pkgs/gazebo_ros/include/**",
+        "/home/luoyang/catkin_ws/src/gazebo_ros_pkgs/gazebo_ros_control/include/**",
+        "/home/luoyang/PX4-Autopilot/Tools/sitl_gazebo/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

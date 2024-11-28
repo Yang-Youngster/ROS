@@ -1,0 +1,167 @@
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target _kr_mav_manager_generate_messages_check_deps_GoalTimed[0m
+[  0%] Built target _kr_mav_manager_generate_messages_check_deps_GoalTimed
+[35m[1mScanning dependencies of target _kr_mav_manager_generate_messages_check_deps_Lissajous[0m
+[  0%] Built target _kr_mav_manager_generate_messages_check_deps_Lissajous
+[35m[1mScanning dependencies of target _kr_mav_manager_generate_messages_check_deps_Vec4[0m
+[  0%] Built target _kr_mav_manager_generate_messages_check_deps_Vec4
+[35m[1mScanning dependencies of target _kr_mav_manager_generate_messages_check_deps_CompoundLissajous[0m
+[  0%] Built target _kr_mav_manager_generate_messages_check_deps_CompoundLissajous
+[35m[1mScanning dependencies of target _kr_mav_manager_generate_messages_check_deps_Circle[0m
+[  0%] Built target _kr_mav_manager_generate_messages_check_deps_Circle
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[  0%] Built target nav_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[  0%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[  0%] Built target nav_msgs_generate_messages_py
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[  0%] Built target std_srvs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[  0%] Built target std_srvs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[  0%] Built target nav_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[  0%] Built target nav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target kr_tracker_msgs_generate_messages_nodejs[0m
+[  0%] Built target kr_tracker_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[  0%] Built target std_srvs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target quadrotor_msgs_generate_messages_py[0m
+[  0%] Built target quadrotor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target kr_mav_manager_generate_messages_cpp[0m
+[  3%] [34m[1mGenerating C++ code from kr_mav_manager/Vec4.srv[0m
+[  6%] [34m[1mGenerating C++ code from kr_mav_manager/GoalTimed.srv[0m
+[  9%] [34m[1mGenerating C++ code from kr_mav_manager/Circle.srv[0m
+[ 12%] [34m[1mGenerating C++ code from kr_mav_manager/Lissajous.srv[0m
+[ 16%] [34m[1mGenerating C++ code from kr_mav_manager/CompoundLissajous.srv[0m
+[ 16%] Built target kr_mav_manager_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[ 16%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[ 16%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[ 16%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target quadrotor_msgs_generate_messages_eus[0m
+[ 16%] Built target quadrotor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target kr_tracker_msgs_generate_messages_cpp[0m
+[ 16%] Built target kr_tracker_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target kr_tracker_msgs_generate_messages_eus[0m
+[ 16%] Built target kr_tracker_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[ 16%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target kr_tracker_msgs_generate_messages_lisp[0m
+[ 16%] Built target kr_tracker_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target quadrotor_msgs_generate_messages_cpp[0m
+[ 16%] Built target quadrotor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target quadrotor_msgs_generate_messages_lisp[0m
+[ 16%] Built target quadrotor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[ 16%] Built target std_srvs_generate_messages_eus
+[35m[1mScanning dependencies of target kr_tracker_msgs_generate_messages_py[0m
+[ 16%] Built target kr_tracker_msgs_generate_messages_py
+[35m[1mScanning dependencies of target quadrotor_msgs_generate_messages_nodejs[0m
+[ 16%] Built target quadrotor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target kr_mav_manager_generate_messages_nodejs[0m
+[ 19%] [34m[1mGenerating Javascript code from kr_mav_manager/Vec4.srv[0m
+[ 22%] [34m[1mGenerating Javascript code from kr_mav_manager/GoalTimed.srv[0m
+[ 25%] [34m[1mGenerating Javascript code from kr_mav_manager/Circle.srv[0m
+[ 29%] [34m[1mGenerating Javascript code from kr_mav_manager/Lissajous.srv[0m
+[ 32%] [34m[1mGenerating Javascript code from kr_mav_manager/CompoundLissajous.srv[0m
+[ 32%] Built target kr_mav_manager_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[ 32%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target kr_mav_manager_generate_messages_py[0m
+[ 35%] [34m[1mGenerating Python code from SRV kr_mav_manager/Vec4[0m
+[ 38%] [34m[1mGenerating Python code from SRV kr_mav_manager/GoalTimed[0m
+[ 41%] [34m[1mGenerating Python code from SRV kr_mav_manager/Circle[0m
+[ 45%] [34m[1mGenerating Python code from SRV kr_mav_manager/Lissajous[0m
+[ 48%] [34m[1mGenerating Python code from SRV kr_mav_manager/CompoundLissajous[0m
+[ 51%] [34m[1mGenerating Python srv __init__.py for kr_mav_manager[0m
+[ 51%] Built target kr_mav_manager_generate_messages_py
+[35m[1mScanning dependencies of target kr_mav_manager_generate_messages_lisp[0m
+[ 54%] [34m[1mGenerating Lisp code from kr_mav_manager/Vec4.srv[0m
+[ 58%] [34m[1mGenerating Lisp code from kr_mav_manager/GoalTimed.srv[0m
+[ 61%] [34m[1mGenerating Lisp code from kr_mav_manager/Circle.srv[0m
+[ 64%] [34m[1mGenerating Lisp code from kr_mav_manager/Lissajous.srv[0m
+[ 67%] [34m[1mGenerating Lisp code from kr_mav_manager/CompoundLissajous.srv[0m
+[ 67%] Built target kr_mav_manager_generate_messages_lisp
+[35m[1mScanning dependencies of target kr_mav_manager_generate_messages_eus[0m
+[ 70%] [34m[1mGenerating EusLisp code from kr_mav_manager/Vec4.srv[0m
+[ 74%] [34m[1mGenerating EusLisp code from kr_mav_manager/GoalTimed.srv[0m
+[ 77%] [34m[1mGenerating EusLisp code from kr_mav_manager/Circle.srv[0m
+[ 80%] [34m[1mGenerating EusLisp code from kr_mav_manager/Lissajous.srv[0m
+[ 83%] [34m[1mGenerating EusLisp code from kr_mav_manager/CompoundLissajous.srv[0m
+[ 87%] [34m[1mGenerating EusLisp manifest code for kr_mav_manager[0m
+[ 87%] Built target kr_mav_manager_generate_messages_eus
+[35m[1mScanning dependencies of target kr_mav_manager[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/kr_mav_manager.dir/src/manager.cpp.o[0m
+[35m[1mScanning dependencies of target kr_mav_manager_generate_messages[0m
+[ 90%] Built target kr_mav_manager_generate_messages
+[ 93%] [32m[1mLinking CXX shared library /home/luoyang/文档/GitHub/ROS/test_path/devel/.private/kr_mav_manager/lib/libkr_mav_manager.so[0m
+[ 93%] Built target kr_mav_manager
+[35m[1mScanning dependencies of target mav_services[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/mav_services.dir/src/mav_services.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/luoyang/文档/GitHub/ROS/test_path/devel/.private/kr_mav_manager/lib/kr_mav_manager/mav_services[0m
+[100%] Built target mav_services

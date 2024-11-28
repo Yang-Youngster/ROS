@@ -1,0 +1,6 @@
+trackers/kr_trackers_manager
+/home/luoyang/文档/GitHub/ROS/test_path/devel/.private/kr_trackers_manager/cmake.lock /home/luoyang/文档/GitHub/ROS/test_path/devel/./cmake.lock
+/home/luoyang/文档/GitHub/ROS/test_path/devel/.private/kr_trackers_manager/share/kr_trackers_manager/cmake/kr_trackers_managerConfig-version.cmake /home/luoyang/文档/GitHub/ROS/test_path/devel/share/kr_trackers_manager/cmake/kr_trackers_managerConfig-version.cmake
+/home/luoyang/文档/GitHub/ROS/test_path/devel/.private/kr_trackers_manager/share/kr_trackers_manager/cmake/kr_trackers_managerConfig.cmake /home/luoyang/文档/GitHub/ROS/test_path/devel/share/kr_trackers_manager/cmake/kr_trackers_managerConfig.cmake
+/home/luoyang/文档/GitHub/ROS/test_path/devel/.private/kr_trackers_manager/lib/libkr_trackers_manager.so /home/luoyang/文档/GitHub/ROS/test_path/devel/lib/libkr_trackers_manager.so
+/home/luoyang/文档/GitHub/ROS/test_path/devel/.private/kr_trackers_manager/lib/pkgconfig/kr_trackers_manager.pc /home/luoyang/文档/GitHub/ROS/test_path/devel/lib/pkgconfig/kr_trackers_manager.pc

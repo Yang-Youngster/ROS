@@ -1,0 +1,4 @@
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/share/pose_utils/cmake/pose_utilsConfig.cmake
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/share/pose_utils/cmake/pose_utilsConfig-version.cmake
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/lib/libpose_utils.so
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/lib/pkgconfig/pose_utils.pc

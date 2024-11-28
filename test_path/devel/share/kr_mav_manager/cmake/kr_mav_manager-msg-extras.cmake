@@ -1,0 +1,2 @@
+set(kr_mav_manager_MESSAGE_FILES "")
+set(kr_mav_manager_SERVICE_FILES "/home/luoyang/文档/GitHub/ROS/test_path/src/kr_mav_manager/srv/Vec4.srv;/home/luoyang/文档/GitHub/ROS/test_path/src/kr_mav_manager/srv/GoalTimed.srv;/home/luoyang/文档/GitHub/ROS/test_path/src/kr_mav_manager/srv/Circle.srv;/home/luoyang/文档/GitHub/ROS/test_path/src/kr_mav_manager/srv/Lissajous.srv;/home/luoyang/文档/GitHub/ROS/test_path/src/kr_mav_manager/srv/CompoundLissajous.srv")

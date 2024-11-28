@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luoyang/文档/GitHub/ROS/test_path/src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils/include/pose_utils.h
+iostream
+-
+armadillo
+/home/luoyang/文档/GitHub/ROS/test_path/src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils/include/armadillo
+
+/home/luoyang/文档/GitHub/ROS/test_path/src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils/src/pose_utils.cpp
+pose_utils.h
+/home/luoyang/文档/GitHub/ROS/test_path/src/ego-planner-swarm/src/uav_simulator/Utils/pose_utils/src/pose_utils.h
+

@@ -1,0 +1,8 @@
+prefix=/home/luoyang/文档/GitHub/ROS/test_path/devel
+
+Name: kr_mav_launch
+Description: Description of kr_mav_launch
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

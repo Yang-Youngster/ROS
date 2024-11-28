@@ -1,0 +1,8 @@
+prefix=/home/luoyang/文档/GitHub/ROS/test_path/devel
+
+Name: kr_trackers
+Description: Description of kr_trackers
+Version: 1.0.0
+Cflags: -I/home/luoyang/文档/GitHub/ROS/test_path/src/trackers/kr_trackers/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lkr_trackers
+Requires: actionlib std_msgs geometry_msgs nav_msgs tf quadrotor_msgs kr_tracker_msgs kr_trackers_manager

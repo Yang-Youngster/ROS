@@ -1,0 +1,8 @@
+prefix=/home/luoyang/文档/GitHub/ROS/test_path/devel
+
+Name: waypoint_generator
+Description: Description of waypoint_generator
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

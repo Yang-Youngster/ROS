@@ -1,0 +1,8 @@
+prefix=/home/luoyang/文档/GitHub/ROS/test_path/install
+
+Name: kr_tracker_msgs
+Description: Description of kr_tracker_msgs
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: nav_msgs geometry_msgs actionlib_msgs message_runtime

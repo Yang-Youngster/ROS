@@ -1,0 +1,6 @@
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/share/so3_control/cmake/so3_controlConfig-version.cmake
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/share/so3_control/cmake/so3_controlConfig.cmake
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/lib/libSO3Control.so
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/lib/libso3_control_nodelet.so
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/lib/so3_control/control_example
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/lib/pkgconfig/so3_control.pc

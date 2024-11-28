@@ -1,0 +1,12 @@
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/./local_setup.zsh
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/./env.sh
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/./local_setup.sh
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/./setup.sh
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/./_setup_util.py
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/./setup.bash
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/./local_setup.bash
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/./setup.zsh
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/./cmake.lock
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/luoyang/文档/GitHub/ROS/test_path/devel/lib/pkgconfig/catkin_tools_prebuild.pc
